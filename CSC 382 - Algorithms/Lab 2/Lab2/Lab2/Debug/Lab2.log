@@ -1,0 +1,5 @@
+﻿  main.cpp
+d:\college\csc 382\lab2\lab2\lab2\main.cpp(93): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\college\csc 382\lab2\lab2\lab2\main.cpp(95): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Lab2.vcxproj -> D:\College\CSC 382\Lab2\Lab2\Debug\Lab2.exe
+  Lab2.vcxproj -> D:\College\CSC 382\Lab2\Lab2\Debug\Lab2.pdb (Full PDB)
