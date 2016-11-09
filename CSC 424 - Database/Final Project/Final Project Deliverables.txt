@@ -1,0 +1,11 @@
+Please complete the following project deliverables using the document templates (required for Design document and Business Test Case/Script Documents):
+
+Project Deliverables Due on Dec 11th, 2016
+
+System design document (required to use the design document template).
+Business test case/script document (required to use the test case/script document template)
+Installation guide document (as simple as text note on how to install the software)
+Program source code and documents
+Project Demo/Presentation
+
+Each team is required to present their project in person in my office on Dec 6th or 8th.  Time Slot will be assign later.

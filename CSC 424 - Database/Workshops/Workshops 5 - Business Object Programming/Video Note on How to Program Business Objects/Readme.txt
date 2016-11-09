@@ -1,0 +1,3 @@
+The purpose of this workshop is to understand, learn and hands-on practice of reusable software component in DLL form.  Please read the assigned article first (read up to page 13).  then view these video clips and try to do the same thing.   Please post your questions/comments in Q&A section on Blackboard.
+
+Right click on the link and open it in a new window.  If it does not work,  you  can copy the URL link in your preferrd browser.

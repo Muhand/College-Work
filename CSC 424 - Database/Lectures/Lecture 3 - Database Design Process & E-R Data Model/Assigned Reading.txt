@@ -1,0 +1,4 @@
+Beside lecture notes, students are encouraged to read the following sections of textbook (Ullman & Widom) to gain a deeper knowledge of database modeling and design process.
+
+Chapter 2 - Section 2.1 and 2.2
+Chapter 2 - Sections 4.1 to 4.5

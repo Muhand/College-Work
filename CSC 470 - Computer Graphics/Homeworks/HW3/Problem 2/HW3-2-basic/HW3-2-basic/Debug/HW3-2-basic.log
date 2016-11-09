@@ -1,0 +1,7 @@
+﻿  main.cpp
+d:\college\csc 470\homeworks\hw3\problem 2\hw3-2-basic\hw3-2-basic\main.cpp(35): warning C4838: conversion from 'int' to 'GLfloat' requires a narrowing conversion
+d:\college\csc 470\homeworks\hw3\problem 2\hw3-2-basic\hw3-2-basic\main.cpp(102): warning C4838: conversion from 'int' to 'GLfloat' requires a narrowing conversion
+d:\college\csc 470\homeworks\hw3\problem 2\hw3-2-basic\hw3-2-basic\main.cpp(127): warning C4838: conversion from 'int' to 'GLfloat' requires a narrowing conversion
+d:\college\csc 470\homeworks\hw3\problem 2\hw3-2-basic\hw3-2-basic\main.cpp(152): warning C4838: conversion from 'int' to 'GLfloat' requires a narrowing conversion
+  HW3-2-basic.vcxproj -> D:\College\CSC 470\Homeworks\HW3\Problem 2\HW3-2-basic\Debug\HW3-2-basic.exe
+  HW3-2-basic.vcxproj -> D:\College\CSC 470\Homeworks\HW3\Problem 2\HW3-2-basic\Debug\HW3-2-basic.pdb (Full PDB)

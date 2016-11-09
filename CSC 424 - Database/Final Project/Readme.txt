@@ -1,0 +1,1 @@
+Students are suggested to use these templates to do their project related documents to ensure a common document format and style cross different project teams.

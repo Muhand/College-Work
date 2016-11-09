@@ -1,0 +1,1 @@
+The objective of Lab1 is to create a sample database on your own which we will be using in the rest of course.   Please read the attached Lab1 description carefully and use the data file to complete this lab assignment.    You can submit a screen shot of your computer (Laptop or desktop) that shows you have successful created the Premiere database.

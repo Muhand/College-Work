@@ -1,0 +1,6 @@
+﻿  main.cpp
+d:\college\csc 470\labs\lab 2\lab 2\lab2\lab2\main.cpp(97): warning C4101: 'sy': unreferenced local variable
+d:\college\csc 470\labs\lab 2\lab 2\lab2\lab2\main.cpp(97): warning C4101: 'sx': unreferenced local variable
+d:\college\csc 470\labs\lab 2\lab 2\lab2\lab2\main.cpp(97): warning C4101: 'sa': unreferenced local variable
+  Lab2.vcxproj -> D:\College\CSC 470\Labs\Lab 2\Lab 2\Lab2\Debug\Lab2.exe
+  Lab2.vcxproj -> D:\College\CSC 470\Labs\Lab 2\Lab 2\Lab2\Debug\Lab2.pdb (Full PDB)

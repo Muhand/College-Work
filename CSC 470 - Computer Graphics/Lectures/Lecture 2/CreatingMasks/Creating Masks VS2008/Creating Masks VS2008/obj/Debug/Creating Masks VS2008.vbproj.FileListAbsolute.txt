@@ -1,0 +1,10 @@
+C:\Users\ElhassanMac\Documents\CSC470\Creating Masks VS2008\Creating Masks VS2008\bin\Debug\Creating Masks VS2008.exe
+C:\Users\ElhassanMac\Documents\CSC470\Creating Masks VS2008\Creating Masks VS2008\bin\Debug\Creating Masks VS2008.pdb
+C:\Users\ElhassanMac\Documents\CSC470\Creating Masks VS2008\Creating Masks VS2008\bin\Debug\Creating Masks VS2008.xml
+C:\Users\ElhassanMac\Documents\CSC470\Creating Masks VS2008\Creating Masks VS2008\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ElhassanMac\Documents\CSC470\Creating Masks VS2008\Creating Masks VS2008\obj\Debug\Creating_Masks_VS2008.Form1.resources
+C:\Users\ElhassanMac\Documents\CSC470\Creating Masks VS2008\Creating Masks VS2008\obj\Debug\Creating_Masks_VS2008.Resources.resources
+C:\Users\ElhassanMac\Documents\CSC470\Creating Masks VS2008\Creating Masks VS2008\obj\Debug\Creating Masks VS2008.vbproj.GenerateResource.Cache
+C:\Users\ElhassanMac\Documents\CSC470\Creating Masks VS2008\Creating Masks VS2008\obj\Debug\Creating Masks VS2008.exe
+C:\Users\ElhassanMac\Documents\CSC470\Creating Masks VS2008\Creating Masks VS2008\obj\Debug\Creating Masks VS2008.xml
+C:\Users\ElhassanMac\Documents\CSC470\Creating Masks VS2008\Creating Masks VS2008\obj\Debug\Creating Masks VS2008.pdb

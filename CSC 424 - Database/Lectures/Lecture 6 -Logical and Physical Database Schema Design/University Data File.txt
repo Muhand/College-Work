@@ -1,0 +1,151 @@
+	PERSON FILE
+
+
+987654321	Clinton	Hillary
+115327466	Bush	George
+204896874	Domingo	Placido
+345098765	Ali	Mohammad
+837524163	King	Martin Lutho
+683958673	Hu	Jintao
+798895733	Schwartz	Jack
+058938586	Obama	Barack
+153758683	Chi-Burns	Gael	
+456587847	Mao	Zedong
+798783733	Lincoln	Abraham
+019385842	Pierce	Mary
+674832985	King	Mary
+555555555	Springer	Marlene
+777777777	Belaief	Lynne
+111222333	Belaief	Lynne
+111111111	Harvard	John
+999678678	Nigel	NULL
+444555666	Radcliffe	Paula
+111222444	Verdi	Giuseppi
+123456789	Mutai	Geoffrey
+998347643	Strauss	Richard
+684903033	Wagner	Richard
+485082641	Kleinman	Alix
+000000000	Nelson	Twyla
+634222169	Nelson	Jesse
+347996440	vonNeumann	John
+539876677	Levine	James
+687747441	X	Malcolm
+795835744	Xi	Jinping
+485747662	Bloomberg	David
+
+	PROF FILE
+
+987654321	Clinton	Hillary	CS	1-415	P	2006-01-09	000001.00	837524163
+837524163	King	Martin Lutho	CS	SF	A	2004-01-09	100000.00	837524163
+115327466	Bush	George	GOVT	DC	I	1969-01-09	200000.00	115327466
+204896874	Domingo	Placido	CS	1-412	S	2003-01-02	047000.38	837524163
+345098765	Ali	Mohammad	CS	1-424	P	2002-01-09	399876.66	837524163
+683958673	Hu	Jintao	CC	1-418	A	1997-01-02	010000.54	837524163
+454398789	Sager	Naomi	MATH	23 BW	P	1987-01-02	099999.87	123456789
+798895733	Schwartz	Jack	CS	508WW	P	1999-01-09	035627.26	123456789
+058938586	Obama	Barack	MATH	M407	P	2005-01-09	000010.00	019385842
+000476894	Hoover	Herbert	GOVT	DC	I	1932-01-01	093000.00	000476894
+
+
+	STUDENT FILE
+
+987654321	Clinton	Hillary	PE  	1991-09-13	1	0.010	345098765
+115327466	Bush	George	GOVT	1919-01-01	0	0.000	115327466
+345098765	Ali	Mohammad	CS	1971-09-01	128	3.990	020187673
+020187673	Hu	Jintao	CS	1960-02-01	62	2.010	987654321
+019385842	Pierce	Mary	GOVT	1982-09-01	3	5.670	115327466
+798783733	Lincoln	Abraham	GOVT	1856-01-20	4	3.010	115327466
+456587847	Mao	Zedong	CS	1917-09-01	67	2.670	454398789
+058938586	Obama	Barack	MATH	1937-02-01	12	3.900	019385842
+684903033	Zhao	Wenwen	GOVT	1994-09-01	0	0.000	987654321
+111222333	Belaief	Lynne	ENG	1931-09-01	32	3.990	798895733
+555555555	Springer	Marlene	ENGL	1915-06-01	0	0.000	000476894
+777777777	Belaief	Lynne	ENGL	1931-09-01	44	3.660	987654321
+123456789	Mutai	Geoffrey	GOVT	1983-01-20	0	0.000	798783733
+111222444	Verdi	Giuseppi	MUS	1813--05-22	128	4.001	11222333
+444555666	Radcliffe	Paula	RUSS	1977--10-27	100	0.001	15327466
+
+
+	COURSE FILE
+
+CSC111	Introduction to Computing and Computer Programming	Principles of algorithm design and structured programming.  Modular program structure; Functions and parameters.  Arrays and pointers.  Files and records.  Searching and sorting.  The C language is used.	CS	1	4
+CSC211	Data Structures	Various data structures such as lists, stacks, queues, trees, network, and compound structures;  data abstraction and primitive operations on these structures.	CS	2	4
+CSC231	Microcomputers and assembly language	An introduction to the internal workings of computers ("computer architecture"), using a microcomputer as an example.	CS	3	4
+CSC330	Topics in Information Systems	File and storage structures.  The relational, hierarchical, and network models.  Query languages, applications.  Record management services. Relational algebra.	CS	3	4
+CSC362	Systems Programming	*	CS	3	4
+CSC424	Introduction to Database Systems	A ridiculous look at a horrendously complex subject-Chi's folly.	CS	4	4
+CSC715	Database Theory	*	CS	7	3
+GOV100	Introduction to Political Science	First semester: a study of the leading ideas of the Western Political tradition.  Two lectures and one discussion.  This is a full year course.	GOVT	1	8
+MTH153	Introduction to Discrete Mathematics	An introduction to discrete (finite) mathematics with emphasis on the study of algorithms and on applications to mathematical modeling and computer science.  Topics include sets, logic, graph theory, induction, recursion, counting, and combinatorics.	MATH	1	4
+CSC228	Introduction to Discrete Mathematics	Same as MTH153.	CS	2	4
+CSC733	Natural Language Processing	Fantastically interesting course of study - a MUST!	CS	7	3
+CHI111	Intensive Elementary Chinese	The name says it all!	EALC	1	6
+
+
+	SECTION FILE
+
+CSC111	6789	345098765	F07
+CSC211	2597	987654321	F07
+CSC211	9023	345098765	S07
+CSC211	5387	837524163	S02
+CSC330	3456	987654320	F08
+GOV100	2804	000476894	F35
+CSC330	1234	837524164	S02
+GOV100	2804	115327466	S04
+GOV100	7903	115327466	S03
+CSC330	8702	987654321	F08
+CSC362	4321	987654322	F08
+CSC111	8888	987654321	S08
+CSC231	7777	987654322	S08
+CSC715	4195	987654321	F09
+CSC424	4190	987654322	F09
+MTH153	4190	454398788	S99
+CSC228	4195	454398789	S99
+CSC111	9876	345098765	F11
+CSC111	9876	345098765	F08
+MTH153	2345	987654323	F09
+CSC228	2340	987654324	F09
+CSC733	7777	987654321	F02
+CSC126	1111	111111111	F99
+CSC424	4190	987654321	S12
+
+
+	REPORT FILE
+
+008928757	2804	S04	D
+019385842	3456	F08	I
+019385842	2804	F35	A
+111222333	2597	F07	A
+115327466	2804	F35	F
+123456789	3456	F08	I
+123586543	1234	S02	A
+156598855	5387	S02	B
+204896874	5387	S02	A
+245767834	4937	S08	F
+333222111	6789	F07	A
+345098765	1234	S02	C
+345098765	2597	F07	A
+456587847	1234	S02	F
+456587847	2804	S04	F
+456587847	4190	F02	W
+456587847	2804	S03	F
+555555555	4195	F02	I
+777777777	4190	F02	I
+798783733	9023	S07	A
+837524163	3456	F08	D
+937650375	9023	S07	F
+987654321	1234	S02	B
+987654321	2804	S04	A
+987654321	4190	F09	A
+345098765	8765	F11	D
+777777777	8765	F11	C
+345098765	8765	F08	F
+777777777	8765	F08	A
+987654321	8765	F11	F
+345098765	7777	F02	A
+798783733	7777	F02	B
+777777777	4190	F09	F
+777777777	7777	S08	F
+555555555	4190	S12	 
+020187673	4190	S12	 
+111222444	8765	F11	A

@@ -1,0 +1,1 @@
+This is a sample E-R data model for university that we have partial built during class.  You can use this a sample to help you do Lab3.

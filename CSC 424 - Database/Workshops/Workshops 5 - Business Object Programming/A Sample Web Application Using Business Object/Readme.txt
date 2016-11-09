@@ -1,0 +1,1 @@
+This is a complete web application in Visual Studio 2010 that uses a business object as middle layer between a web page and a database.  Students can down load and unzip it into a folder in order to run it.
