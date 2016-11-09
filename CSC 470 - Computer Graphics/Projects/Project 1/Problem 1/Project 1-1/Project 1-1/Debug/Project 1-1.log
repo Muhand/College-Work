@@ -1,0 +1,8 @@
+﻿  main.cpp
+d:\github\college-work\csc 470 - computer graphics\projects\project 1\problem 1\project 1-1\project 1-1\main.cpp(356): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+d:\github\college-work\csc 470 - computer graphics\projects\project 1\problem 1\project 1-1\project 1-1\main.cpp(368): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+d:\github\college-work\csc 470 - computer graphics\projects\project 1\problem 1\project 1-1\project 1-1\main.cpp(381): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+d:\github\college-work\csc 470 - computer graphics\projects\project 1\problem 1\project 1-1\project 1-1\main.cpp(416): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+d:\github\college-work\csc 470 - computer graphics\projects\project 1\problem 1\project 1-1\project 1-1\main.cpp(428): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+  Project 1-1.vcxproj -> D:\github\College-Work\CSC 470 - Computer Graphics\Projects\Project 1\Problem 1\Project 1-1\Debug\Project 1-1.exe
+  Project 1-1.vcxproj -> D:\github\College-Work\CSC 470 - Computer Graphics\Projects\Project 1\Problem 1\Project 1-1\Debug\Project 1-1.pdb (Full PDB)
