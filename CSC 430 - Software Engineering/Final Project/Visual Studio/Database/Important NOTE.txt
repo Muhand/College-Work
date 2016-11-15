@@ -1,0 +1,4 @@
+Create tables by this order
+1 - Stores
+2 - Cars
+3 - Gadgets

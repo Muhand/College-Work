@@ -1,0 +1,18 @@
+1. Find location and prompt a list of stores, based on ZIP-Code
+2. Select a store and pick a date
+3. Fetch data of available cars in this store
+4. Select a car
+5. Show car profile, then on the side page of gadgets to be added to the car. Also add 3 buttons(Add to cart, Checkout, Back)
+  I. Add to cart
+	Update the cart icon and increase the 	number of cars, if car is unavailable go back to home page, otherwise stay on page and allow to select the car again.
+  II. Checkout
+	Check if there is a session, if not then go to login page, otherwise Go to the review order page(summary Page).
+  III. Back
+	Go back to the previous page
+NOTE: AT ANYTIME THE CART ICON IS PRESSED CALL THE CHECKOUT FUNCTION.
+
+6. Summary Page: Show the profile of the order including prices, taxes, etc... And include a button "Place order" and a goback button
+
+7. Show a thank you confirmation message when "Place order is pressed" and include a button to go back to home page.
+
+NOTE: Homepage is the store page

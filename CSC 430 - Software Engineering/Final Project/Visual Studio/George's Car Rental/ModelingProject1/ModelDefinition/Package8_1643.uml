@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="c218c4d7-3870-4ff6-8181-a68683a93413"
+  name="CustomControls"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="078cd2a5-8c29-4a5a-a75d-ff959b008679"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DGeorge_s_Car_Rental.CustomControls"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="571deea7-a5c8-4458-810a-de68259dc83f"
+        name="SearchBox"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="55273d43-aac9-4040-b268-b0f1d6fda451"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FCollege Work%2FCSC 430%2FFinal Project%2FVisual Studio%2FGeorge's Car Rental%2FGeorge's Car Rental%2Fbin%2FDebug%2FGeorges Car Rental.exe&quot; Namespace%3DGeorge_s_Car_Rental.CustomControls Type%3DSearchBox"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a595661e-59c8-403e-b963-c87752ca6f1e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="de0e74d7-ac9b-48e8-8dc0-4d9df4b31222">
+                <propertyInstance
+                  Id="19eb32a6-5e34-41b5-8566-1ec41146bc61"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b73399b0-af68-4fa1-9ddd-da6f6c2eacab">
+                <propertyInstance
+                  Id="8180614b-2e8f-4523-9fbc-822312580305"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="298f5ee9-f3c0-4146-8f4d-e8d20e8a4c71">
+                <propertyInstance
+                  Id="66077b90-38dc-4ba6-9721-70147f15b88d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d9014be8-373e-4d5a-b9cf-088d3eb399a7">
+                <propertyInstance
+                  Id="071e986d-93aa-424a-a4c7-e5d37bc7918b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f62cca99-8bac-419a-b251-6e4904e62cc9">
+                <propertyInstance
+                  Id="7561d61a-ff78-4f55-840a-9b28726bced3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="97087db1-87a0-4f24-bac1-c9903223b90f">
+            <interfaceMoniker
+              Id="67ef5a7e-e97a-4a93-8432-cd1bbb4edd69"
+              LastKnownName="IComponentConnector"
+              LastKnownLocation="Package4_1643.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

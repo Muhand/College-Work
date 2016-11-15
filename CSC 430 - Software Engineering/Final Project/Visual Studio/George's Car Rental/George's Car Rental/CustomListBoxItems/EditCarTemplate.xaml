@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="George_s_Car_Rental.CustomListBoxItems.EditCarTemplate"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:customControls="clr-namespace:George_s_Car_Rental.CustomControls"
+             mc:Ignorable="d" 
+             Name="EditCarListBoxItem"
+             d:DesignHeight="300" d:DesignWidth="300" Loaded="EditCarListBoxItem_Loaded">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="0.6*"/>
+                <ColumnDefinition Width="0.19*"/>
+                <ColumnDefinition Width="0.01*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <Image Source="{Binding Path=CarImage,ElementName=EditCarListBoxItem}" Grid.Column="0"/>
+
+            <StackPanel Grid.Column="1" Margin="10,0,0,0">
+                <TextBlock Name="title" Text="{Binding Path=CarTitle, ElementName=EditCarListBoxItem}" FontSize="30"/>
+                <TextBlock Name="carInfo" Text="{Binding Path=CarInfo, ElementName=EditCarListBoxItem}" FontSize="20"/>
+                <TextBlock Name="carDescription" Text="{Binding Path=CarDescription, ElementName=EditCarListBoxItem}" FontSize="15"/>
+            </StackPanel>
+
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" Margin="0,10,0,0">
+                    <StackPanel Orientation="Horizontal" >
+                        <TextBlock Text="Quantity: " Name="quantityLabel"/>
+                        <customControls:NumericUpDown x:Name="quantity"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" >
+                        <TextBlock Text="Days: " Name="daysLabel"/>
+                        <customControls:NumericUpDown x:Name="days"/>
+                    </StackPanel>
+
+                </StackPanel>
+
+
+                <Button Grid.Row="2" Margin="0,0,10,10" Name="UpdateCart" Content="Update" FontSize="30" Click="UpdateCart_Click" DataContext="{Binding Path=Car, ElementName=EditCarListBoxItem}"/>
+            </Grid>
+
+            <Grid Grid.Column="3" ToolTip="Remove" Margin="0,0,10,0" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave" MouseDown="Grid_MouseDown" MouseUp="Grid_MouseUp">
+                <TextBlock  Name="RemoveItem" Text="X" FontSize="30" VerticalAlignment="Top" HorizontalAlignment="Center" Padding="10"/>
+            </Grid>
+
+        </Grid>
+    </Grid>
+</UserControl>

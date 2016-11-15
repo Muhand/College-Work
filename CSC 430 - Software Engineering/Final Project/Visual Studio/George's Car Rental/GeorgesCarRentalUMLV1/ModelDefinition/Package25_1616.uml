@@ -1,0 +1,734 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="746f32f4-26e0-4f85-bb88-d414c48c22e0"
+  name="Security"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="487e2467-0115-444f-883a-7de5ad02c51c"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3Ddmanager.Security"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="a3e38d33-c59c-45f1-b179-1936635906c5"
+        name="LoginCredentials"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="dfc59783-5427-42e3-b2ec-ef1b2ad76aa9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FDevelopment%2FC%2523%2FMy Liabraries%2Fdmanager%2Fdmanager - v4.5%2Fdmanager%2Fbin%2FDebug%2Fdmanager.dll&quot; Namespace%3Ddmanager.Security Type%3DLoginCredentials"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="76c99a7e-074f-4bd6-83b3-a517b2554f55"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eb9236ef-23e7-489b-aa30-0bd6e609fc70">
+                <propertyInstance
+                  Id="6d2cfe18-aec9-4c24-a086-ef896f8cf12c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="79184641-7e64-4d6f-832e-9a828c8a85e7">
+                <propertyInstance
+                  Id="655defc0-0371-4979-aadb-e8cd9ad43c37"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fcb5684d-aa24-4c7f-be64-cd8323acbcb4">
+                <propertyInstance
+                  Id="34875b86-d5b1-44cb-aedf-8f546f35c671"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ba51c66c-6af1-43e8-b05c-93951043d932">
+                <propertyInstance
+                  Id="fcd2d69f-5470-4755-8597-20a784d99b8c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b0195218-c74f-4bbe-a21b-474f4314dce9">
+                <propertyInstance
+                  Id="aa034af6-17fd-463d-9877-be9e0f058160"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="83fd7f6b-6466-4c00-afeb-a822d13a8639"
+            isDerived="false"
+            sourceEndRoleName="LoginCredentials"
+            targetEndRoleName="Tag"
+            isLeaf="false"
+            isAbstract="false">
+            <enumerationMoniker
+              Id="2311e802-af69-4127-b9ab-10967740c10c"
+              LastKnownName="Tags"
+              LastKnownLocation="Package24_1616.uml" />
+            <description>Property Tag references type Tags.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e9543dba-41f4-4701-9030-bf9d671db4dc"
+                  name="LoginCredentials"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="e31106ac-3bbb-45cc-8157-caf9f8b2a69c"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="865b703f-cf24-4635-a984-cb023f08c058"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e74fe41a-74c0-4626-9a55-dcc1065bacd8"
+                  name="Tag"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c92df87e-2a44-4561-a36e-7f4bc940ca35"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="ac749974-a9c4-4b55-993f-e8d9795c67ff"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="d3f89756-72d8-47ad-a376-9b1aa4cdbd00"
+            name="FieldName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="cd0e9ddd-cbf1-44d1-a243-b7bce1182625"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FDevelopment%2FC%2523%2FMy Liabraries%2Fdmanager%2Fdmanager - v4.5%2Fdmanager%2Fbin%2FDebug%2Fdmanager.dll&quot; Namespace%3Ddmanager.Security Type%3DLoginCredentials Member%3DFieldName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f4bec4b3-3afb-4987-9130-83e1702eea4c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9882e5fe-b91f-4904-a3d9-0eea05d0ac9b">
+                    <propertyInstance
+                      Id="4c1ffb57-b365-43ad-9975-9d2e4a8e88cf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c729c2fb-3f51-4273-a420-83e827f381a3">
+                    <propertyInstance
+                      Id="2ff98c83-1caf-47fa-bb02-f814ac375ce7"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40f41a75-1fd8-415e-8ec6-33e077a94af8">
+                    <propertyInstance
+                      Id="d18d71be-9f98-450d-ba55-b0b6b624df18"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8bde051c-121e-4f05-a014-1bb282987ae6">
+                    <propertyInstance
+                      Id="8ab0d337-ded6-4159-b003-98451fcd1504"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9eaa1091-bcce-43d8-9a18-540495668f90">
+                    <propertyInstance
+                      Id="92977ffc-228a-465f-b9fd-1a568d251b47"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb63b8da-c9aa-4fb6-ba23-e4cdf49afca9">
+                    <propertyInstance
+                      Id="cafea8f0-6beb-4a96-baa8-553969da4216"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c625117-2c9a-4007-ba23-9f4d6d664a23">
+                    <propertyInstance
+                      Id="591812b6-bfa5-4646-9e59-bd86135747dd"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="GeorgesCarRentalUMLV1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d186f27f-e3f6-48b2-95d8-7fd8a1d2763a"
+            name="FieldValue"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="4ee78f40-c8f7-4f83-803f-2ea8e5652feb"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FDevelopment%2FC%2523%2FMy Liabraries%2Fdmanager%2Fdmanager - v4.5%2Fdmanager%2Fbin%2FDebug%2Fdmanager.dll&quot; Namespace%3Ddmanager.Security Type%3DLoginCredentials Member%3DFieldValue"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="39a6a0c1-e7b0-44fd-b276-5e5bdcf83610"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a6b1405-61f4-45f5-91d5-9735edbd7b34">
+                    <propertyInstance
+                      Id="f78f137a-3390-4b2b-88ae-a4bce2fd7fe4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd232a14-7a73-4c27-934e-22fb96ee35d9">
+                    <propertyInstance
+                      Id="2309c872-cbb9-4e50-9130-e22caecee33f"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="755a8271-2888-4736-a2d8-5f50ac37c717">
+                    <propertyInstance
+                      Id="549c90fe-8af8-449b-9d1a-1b39ff187e5f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab9ef01b-1e62-4268-9295-d02836397bf1">
+                    <propertyInstance
+                      Id="7e378b63-13d6-4787-a21e-b4498a74d269"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db2ae287-1927-4dd8-b916-f024aa7541d7">
+                    <propertyInstance
+                      Id="4a01a55b-5215-46f4-a550-a3ae3237f00d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22446192-da49-4179-8e95-8b61f0e459c1">
+                    <propertyInstance
+                      Id="5ff29017-fa9b-451b-8d22-a955e45e58eb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70cc5859-924f-4ff7-87f6-bf06e0ccfda4">
+                    <propertyInstance
+                      Id="dbda157a-bc2f-49d9-9859-8034b0dd362c"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="GeorgesCarRentalUMLV1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c2328e7e-5979-4356-b6e9-bd117c8e660f"
+            name="Tag"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="fbb273fd-4ba0-4870-bf5e-aef69c898fda"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FDevelopment%2FC%2523%2FMy Liabraries%2Fdmanager%2Fdmanager - v4.5%2Fdmanager%2Fbin%2FDebug%2Fdmanager.dll&quot; Namespace%3Ddmanager.Security Type%3DLoginCredentials Member%3DTag"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f69ca24e-6fb4-4cef-b0ba-41ed53b27f3a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79fcffb3-626e-477d-a410-32269b684217">
+                    <propertyInstance
+                      Id="41b6fc40-80bc-44f4-84d5-2178dfb60171"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c27b2e1-381a-4920-aa3c-172607e12867">
+                    <propertyInstance
+                      Id="2c87e923-3541-4199-8dd5-c7e142beb334"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00da9fc2-a658-4715-84a1-8f8285713b4d">
+                    <propertyInstance
+                      Id="3b96e3f6-d0d9-4ae1-8d49-db2ff8adbea9"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae048d36-8e11-4b32-bfdf-4be22104fc27">
+                    <propertyInstance
+                      Id="d496bd1d-76b7-4efa-a235-378032b60c23"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="289f0068-64e9-46f6-9fa9-ade0101b2d93">
+                    <propertyInstance
+                      Id="f46569af-776f-4f9d-b0af-bcd8d5da498a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66f739ce-7247-4205-9626-05f41697052b">
+                    <propertyInstance
+                      Id="08a800de-dce8-429f-9078-36ab7302a955"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34d59e27-2102-4618-9f34-385a7e1e9018">
+                    <propertyInstance
+                      Id="834ab3b3-1661-4252-afef-40d109ca594a"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <enumerationMoniker
+                Id="2311e802-af69-4127-b9ab-10967740c10c"
+                LastKnownName="Tags"
+                LastKnownLocation="Package24_1616.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="16f477b4-0c9e-4531-b309-82ec23f353d1"
+            name="LoginCredentials"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a5c61728-a464-407c-9f27-7533cd455762"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FDevelopment%2FC%2523%2FMy Liabraries%2Fdmanager%2Fdmanager - v4.5%2Fdmanager%2Fbin%2FDebug%2Fdmanager.dll&quot; Namespace%3Ddmanager.Security Type%3DLoginCredentials Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FDevelopment%2FC%2523%2FMy Liabraries%2Fdmanager%2Fdmanager - v4.5%2Fdmanager%2Fbin%2FDebug%2Fdmanager.dll&quot; Namespace%3Ddmanager Type%3D(Name%3DTags ParentType%3DEnums))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="62ee5f0c-2f1b-4738-b763-ff0ff4c764bd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbf2ff37-44a8-42bb-b400-b9a4c25cca4e">
+                    <propertyInstance
+                      Id="439032a8-3331-4e42-b93a-f1fd2b6ab062"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1eac189c-e88c-4529-ba5b-e0278022aae9">
+                    <propertyInstance
+                      Id="9d18ef81-8abf-4deb-be1d-252f12e567aa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cba3800a-96ab-4aae-85df-6135f83c4c89">
+                    <propertyInstance
+                      Id="4e0102db-03c4-4965-a33a-b13919262503"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57d543bf-24a0-4b4c-b03d-156fc048c47a">
+                    <propertyInstance
+                      Id="db7efa47-2275-4a43-8cdd-a7ad2b134b03"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="067a2bdb-b1ef-47b6-8f1f-527dbb32bca0">
+                    <propertyInstance
+                      Id="98a1e682-5da2-4006-9160-e4768327e2b1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aea685bd-d5df-4b02-896e-445526ade20f">
+                    <propertyInstance
+                      Id="32c490cf-adac-42f6-b139-5660f0647469"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b6bdeaec-625d-40c9-bcf6-b04470d4a838"
+                  name="fieldname"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d1a7fa11-ac84-45e7-9145-99195e33a60a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FDevelopment%2FC%2523%2FMy Liabraries%2Fdmanager%2Fdmanager - v4.5%2Fdmanager%2Fbin%2FDebug%2Fdmanager.dll&quot; Namespace%3Ddmanager.Security Type%3DLoginCredentials Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FDevelopment%2FC%2523%2FMy Liabraries%2Fdmanager%2Fdmanager - v4.5%2Fdmanager%2Fbin%2FDebug%2Fdmanager.dll&quot; Namespace%3Ddmanager Type%3D(Name%3DTags ParentType%3DEnums))]) ParameterIdentifier%3Dfieldname"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="GeorgesCarRentalUMLV1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3719f6b9-e2a3-4612-a0cb-0fdfdb521dbc"
+                  name="fieldvalue"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3f228125-efec-4c2b-acb7-1be923727065"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FDevelopment%2FC%2523%2FMy Liabraries%2Fdmanager%2Fdmanager - v4.5%2Fdmanager%2Fbin%2FDebug%2Fdmanager.dll&quot; Namespace%3Ddmanager.Security Type%3DLoginCredentials Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FDevelopment%2FC%2523%2FMy Liabraries%2Fdmanager%2Fdmanager - v4.5%2Fdmanager%2Fbin%2FDebug%2Fdmanager.dll&quot; Namespace%3Ddmanager Type%3D(Name%3DTags ParentType%3DEnums))]) ParameterIdentifier%3Dfieldvalue"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="GeorgesCarRentalUMLV1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1fa39e16-7472-434d-ad1a-885861526e6f"
+                  name="tg"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5b13b94e-108e-43ea-904d-e99dbe95c36f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FDevelopment%2FC%2523%2FMy Liabraries%2Fdmanager%2Fdmanager - v4.5%2Fdmanager%2Fbin%2FDebug%2Fdmanager.dll&quot; Namespace%3Ddmanager.Security Type%3DLoginCredentials Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FDevelopment%2FC%2523%2FMy Liabraries%2Fdmanager%2Fdmanager - v4.5%2Fdmanager%2Fbin%2FDebug%2Fdmanager.dll&quot; Namespace%3Ddmanager Type%3D(Name%3DTags ParentType%3DEnums))]) ParameterIdentifier%3Dtg"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="2311e802-af69-4127-b9ab-10967740c10c"
+                      LastKnownName="Tags"
+                      LastKnownLocation="Package24_1616.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="dab80dc2-745b-43d5-bf4a-12dc6eb35798"
+        name="Encryption"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0b8bbeb3-c820-4e8f-b003-2be228416d17"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FDevelopment%2FC%2523%2FMy Liabraries%2Fdmanager%2Fdmanager - v4.5%2Fdmanager%2Fbin%2FDebug%2Fdmanager.dll&quot; Namespace%3Ddmanager.Security Type%3DEncryption"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9bfb3976-ffba-4daf-9587-b236b7386b76"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fe8c0bcb-2456-4677-87ca-72392cb02cbe">
+                <propertyInstance
+                  Id="6e7f5a6a-2dd6-4c0c-9324-cee912099027"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f23dc537-6c51-4cb0-a1ff-32422616f9bd">
+                <propertyInstance
+                  Id="fe09d0eb-6e37-46d5-a875-9026bcb93f9d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a820a4b3-50e4-4d2b-83bc-67d66cb0e5c7">
+                <propertyInstance
+                  Id="c2f26472-50b5-4cb2-a066-ef4c16e3ff3a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cd9fbbad-63d9-405b-a41b-5573edad12f7">
+                <propertyInstance
+                  Id="a3cddb37-c2a6-4a82-a150-d1b9deaf2dfd"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="df82263f-1e0b-49ff-9eb2-27e3ea42da74">
+                <propertyInstance
+                  Id="45a68be9-40e2-4749-bbaf-5be0bc2ca83a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="94610bfb-db6f-48c6-a7cb-f5444c68d38f"
+            name="MD5Encryption"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="031aac20-4092-461d-80c2-284f8a095124"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FDevelopment%2FC%2523%2FMy Liabraries%2Fdmanager%2Fdmanager - v4.5%2Fdmanager%2Fbin%2FDebug%2Fdmanager.dll&quot; Namespace%3Ddmanager.Security Type%3DEncryption Member%3D(Name%3DMD5Encryption OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6313b1ef-b807-4129-b472-55f80ba25703"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6acd1f3-5b4c-4f2b-92d1-3a5868258fe0">
+                    <propertyInstance
+                      Id="54447eaa-9567-4cdb-85dc-c0cabc2c13e7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7e0f69b-1886-4dfa-9123-c85d216b190f">
+                    <propertyInstance
+                      Id="1d169134-dbc9-4eea-9127-f741889a4042"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0895c906-c763-4455-b49d-4aa38ee8a3de">
+                    <propertyInstance
+                      Id="97d3aa6a-d170-4c86-a192-79938803b62f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="523992d0-0973-4a89-b7d9-82aa8eeb6c12">
+                    <propertyInstance
+                      Id="7099cfe7-f5a9-43a9-ad78-7ccc88aab4db"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d706abb-d733-426e-9f7c-fd43c5d3fa17">
+                    <propertyInstance
+                      Id="d61b1fa4-e7d8-4b05-b789-9481042a78f2"
+                      name="PackageVisibility"
+                      value="protectedinternal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09f775cf-0246-4e86-8bc7-19994f3a71e8">
+                    <propertyInstance
+                      Id="3bdce69f-133d-4538-8d92-5ec5fcad09dc"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d6889bd6-7ad6-437a-9fb0-62dcb5c0bf8d"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="GeorgesCarRentalUMLV1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="638bf143-0c88-4a0f-a2d4-40859a2f8b6a"
+                  name="password"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b5773292-c6e5-4549-970d-4856f8cad706"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FDevelopment%2FC%2523%2FMy Liabraries%2Fdmanager%2Fdmanager - v4.5%2Fdmanager%2Fbin%2FDebug%2Fdmanager.dll&quot; Namespace%3Ddmanager.Security Type%3DEncryption Member%3D(Name%3DMD5Encryption OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dpassword"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="GeorgesCarRentalUMLV1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6dceef59-7289-4db8-b965-ec08ceb86d12"
+            name="Encryption"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="69e3852d-d899-4ffa-bb17-959d54f32c1a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FDevelopment%2FC%2523%2FMy Liabraries%2Fdmanager%2Fdmanager - v4.5%2Fdmanager%2Fbin%2FDebug%2Fdmanager.dll&quot; Namespace%3Ddmanager.Security Type%3DEncryption Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="45893bc6-a043-47e9-98f2-54fb3e402895"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d12eab6b-943a-4dde-8b89-3d290d8d8509">
+                    <propertyInstance
+                      Id="483ad975-07d9-4dd5-98b1-2b3c93ebb2e8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd1010c9-eca4-4a92-9b48-43068272358b">
+                    <propertyInstance
+                      Id="9dc62b5d-d541-46ca-9fda-10a084dfc5d3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95a3804d-4b59-45f4-b187-e75ba463ee12">
+                    <propertyInstance
+                      Id="1a93c6ab-658e-4996-b030-50a554278f49"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f36efda3-a80d-4580-a7ba-a9083f23a6b9">
+                    <propertyInstance
+                      Id="d66e4e6f-bc81-4c62-a8e4-2e4a37a3b0b6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2025b704-5130-449c-8e51-3ae27e407d5d">
+                    <propertyInstance
+                      Id="32cf3cf1-4ddd-4331-9e78-4703be73f07f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6411da24-6e7e-400a-ab00-eb6386dcd07b">
+                    <propertyInstance
+                      Id="44cd67d0-ab75-4637-bf77-4cac59d8add8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

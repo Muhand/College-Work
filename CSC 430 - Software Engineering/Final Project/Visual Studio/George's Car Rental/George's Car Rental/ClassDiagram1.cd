@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="George_s_Car_Rental.App" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.enums" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>enums.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.MainWindow" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.Classes.CarsData" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAIAAAAEAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\CarsData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.Classes.GadgetsData" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAACAEAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\GadgetsData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.Classes.Globals" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAIAAEAEABAwABAAMAACGgEBJYAIAIAAABAAIAAAAo=</HashCode>
+      <FileName>Classes\Globals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.Classes.StoresData" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAABAAAAAAAAEAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\StoresData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.CustomControls.InputField" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAACAAAAIAQAAQAAQAAAAACBAAA=</HashCode>
+      <FileName>CustomControls\InputField.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.CustomControls.NumberInputField" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAABAAAAIAAAAAAAAACAAAAIEQAAAAAQAAAAACRAAA=</HashCode>
+      <FileName>CustomControls\NumberInputField.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.CustomControls.NumericUpDown" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAACAAAAAAABAAAABACAA=</HashCode>
+      <FileName>CustomControls\NumericUpDown.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.CustomControls.PasswordInputField" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAACAQAAIAQAAAAAQAAAAACBAAA=</HashCode>
+      <FileName>CustomControls\PasswordInputField.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.CustomControls.SearchBox" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>CustomControls\SearchBox.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.CustomListBoxItems.CarTemplate" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAIAAAAQAAAAEAAAAAAAAABAAIBgAAEAAACAAABA=</HashCode>
+      <FileName>CustomListBoxItems\CarTemplate.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.CustomListBoxItems.EditCarTemplate" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgCgIABAAQAAAAEAAAEAAACABAAIBAAAGABACAAABA=</HashCode>
+      <FileName>CustomListBoxItems\EditCarTemplate.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.CustomListBoxItems.EditGadgetTemplate" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACACABBgAIQAAAAAEEAAACAAEQAEASACABAAQCAAA=</HashCode>
+      <FileName>CustomListBoxItems\EditGadgetTemplate.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.CustomListBoxItems.GadgetTemplate" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAABgAIAAAAAAEAAAAAAAEQAEgSAAAAAAQCAAA=</HashCode>
+      <FileName>CustomListBoxItems\GadgetTemplate.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.CustomListBoxItems.StoreTemplate" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAQBAAgAAAABAAAAAAAAAQAAAACAAAAAAAAQAAAAA=</HashCode>
+      <FileName>CustomListBoxItems\StoreTemplate.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.Objects.Car">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAACABACAgUAAAAABAAAAABAAQBIAAQgAAAIAAAE=</HashCode>
+      <FileName>Objects\Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.Objects.Cart" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIIAgAAKCQBAAAQAYAQAAIEAQAAABgoAQAAACNAgyAE=</HashCode>
+      <FileName>Objects\Cart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.Objects.CartItem" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAQAIAAAAAAAAAAQAAQACQAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Objects\CartItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.Objects.Gadget">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAhEAAAAAAAAQAABAAABIAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\Gadget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.Objects.Store">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAMAAAAAAQAQAIAABIBAAIABAAAAAA=</HashCode>
+      <FileName>Objects\Store.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.Pages.HomePage" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\HomePage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.Pages.PlaceOrder" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgEAwAAAAEBARAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Pages\PlaceOrder.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.Pages.SelectCarAndGadgets" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAABAAAAIAAIAAAAFAEAAAAAgAA=</HashCode>
+      <FileName>Pages\SelectCarAndGadgets.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.Pages.SelectStore" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAA=</HashCode>
+      <FileName>Pages\SelectStore.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.Pages.ThankYouPage" Collapsed="true">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\ThankYouPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.Pages.ViewCart" Collapsed="true">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAEAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Pages\ViewCart.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.Properties.Resources" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.Properties.Settings" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.ViewModels.CarViewModel" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAEAAAABAA=</HashCode>
+      <FileName>ViewModels\CarViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.ViewModels.GadgetViewModel" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAEAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\GadgetViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="George_s_Car_Rental.ViewModels.StoreViewModel" Collapsed="true">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAoEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\StoreViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

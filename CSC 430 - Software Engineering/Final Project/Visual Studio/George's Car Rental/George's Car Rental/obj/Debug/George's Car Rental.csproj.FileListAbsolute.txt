@@ -1,0 +1,150 @@
+D:\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\George's Car Rental.csprojResolveAssemblyReference.cache
+D:\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\MainWindow.g.cs
+D:\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\App.g.cs
+D:\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\Georges Car Rental.exe.config
+D:\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\Georges Car Rental.exe
+D:\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\Georges Car Rental.pdb
+D:\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental_MarkupCompile.cache
+D:\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental_MarkupCompile.lref
+D:\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\MainWindow.baml
+D:\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental.g.resources
+D:\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\George_s_Car_Rental.Properties.Resources.resources
+D:\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\George's Car Rental.csproj.GenerateResource.Cache
+D:\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental.exe
+D:\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental.pdb
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\Georges Car Rental.exe.config
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental.exe
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental.pdb
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\Georges Car Rental.exe
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\Georges Car Rental.pdb
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\George's Car Rental.csprojResolveAssemblyReference.cache
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\MainWindow.g.cs
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\App.g.cs
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental_MarkupCompile.cache
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental_MarkupCompile.lref
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\MainWindow.baml
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental.g.resources
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\George_s_Car_Rental.Properties.Resources.resources
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\George's Car Rental.csproj.GenerateResource.Cache
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\HomePage.baml
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\HomePage.g.cs
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\SearchBox.baml
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\SearchBox.g.cs
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\SelectStore.baml
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\SelectStore.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\Georges Car Rental.exe.config
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental.exe
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental.pdb
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\George's Car Rental.csprojResolveAssemblyReference.cache
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\SearchBox.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\SearchBox.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\MainWindow.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\HomePage.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\SelectStore.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\App.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\GeneratedInternalTypeHelper.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental_MarkupCompile.cache
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental_MarkupCompile.lref
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental_Content.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\Georges Car Rental.exe
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\Georges Car Rental.pdb
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\dmanager.dll
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\dmanager.pdb
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\MainWindow.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\HomePage.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\SelectStore.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental.g.resources
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\George_s_Car_Rental.Properties.Resources.resources
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\George's Car Rental.csproj.GenerateResource.Cache
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\StoreTemplate.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\StoreTemplate.g.cs
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\dmanager.dll
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\dmanager.pdb
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\StoreTemplate.baml
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\StoreTemplate.g.cs
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental_Content.g.cs
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\SelectCarAndGadgets.baml
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\SelectCarAndGadgets.g.cs
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\NumericUpDown.baml
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\NumericUpDown.g.cs
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\CarTemplate.g.cs
+E:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\CarTemplate.baml
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\Georges Car Rental.exe.config
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental.exe
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental.pdb
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\Georges Car Rental.exe
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\Georges Car Rental.pdb
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\dmanager.dll
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\dmanager.pdb
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\George's Car Rental.csprojResolveAssemblyReference.cache
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\NumericUpDown.baml
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\StoreTemplate.baml
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\SearchBox.baml
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\SelectCarAndGadgets.baml
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\NumericUpDown.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\CarTemplate.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\StoreTemplate.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\SearchBox.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\MainWindow.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\HomePage.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\SelectCarAndGadgets.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\SelectStore.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\App.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental_Content.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental_MarkupCompile.cache
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental_MarkupCompile.lref
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\CarTemplate.baml
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\MainWindow.baml
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\HomePage.baml
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\SelectStore.baml
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Georges Car Rental.g.resources
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\George_s_Car_Rental.Properties.Resources.resources
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\George's Car Rental.csproj.GenerateResource.Cache
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\GadgetTemplate.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\GadgetTemplate.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\NumericUpDown.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\SelectCarAndGadgets.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\NumericUpDown.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\CarTemplate.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\GadgetTemplate.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\SelectCarAndGadgets.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\CarTemplate.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\GadgetTemplate.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\ViewCart.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\ViewCart.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\EditCarTemplate.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\EditCarTemplate.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\EditGadgetTemplate.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\EditGadgetTemplate.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\PlaceOrder.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\PlaceOrder.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\InputField.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\InputField.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\PasswordInputField.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\PasswordInputField.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\NumberInputField.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\NumberInputField.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\ThankYouPage.g.cs
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\ThankYouPage.baml
+I:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\George's Car Rental.csproj.Georges Car Rental.exe.config
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\InputField.baml
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\NumberInputField.baml
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\PasswordInputField.baml
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\ThankYouPage.baml
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\ViewCart.baml
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\InputField.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\NumberInputField.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomControls\PasswordInputField.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\EditCarTemplate.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\EditGadgetTemplate.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\PlaceOrder.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\ThankYouPage.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\ViewCart.g.cs
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\EditCarTemplate.baml
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\CustomListBoxItems\EditGadgetTemplate.baml
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\obj\Debug\Pages\PlaceOrder.baml
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\BCrypt.Net.dll
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\BCrypt.Net.pdb
+F:\Asus computer\College Work\CSC 430\Final Project\Visual Studio\George's Car Rental\George's Car Rental\bin\Debug\BCrypt.Net.xml

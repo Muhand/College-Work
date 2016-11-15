@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="doTheMath">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="fn" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="sn" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="operat" type="tns:operators" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="operators">
+        <s:restriction base="s:string">
+          <s:enumeration value="Add" />
+          <s:enumeration value="Subtract" />
+          <s:enumeration value="Multiply" />
+          <s:enumeration value="Divide" />
+          <s:enumeration value="None" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="doTheMathResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="doTheMathResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getCalculations">
+        <s:complexType />
+      </s:element>
+      <s:element name="getCalculationsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getCalculationsResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="doTheMathSoapIn">
+    <wsdl:part name="parameters" element="tns:doTheMath" />
+  </wsdl:message>
+  <wsdl:message name="doTheMathSoapOut">
+    <wsdl:part name="parameters" element="tns:doTheMathResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCalculationsSoapIn">
+    <wsdl:part name="parameters" element="tns:getCalculations" />
+  </wsdl:message>
+  <wsdl:message name="getCalculationsSoapOut">
+    <wsdl:part name="parameters" element="tns:getCalculationsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SimpleCalculatorSoap">
+    <wsdl:operation name="doTheMath">
+      <wsdl:input message="tns:doTheMathSoapIn" />
+      <wsdl:output message="tns:doTheMathSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getCalculations">
+      <wsdl:input message="tns:getCalculationsSoapIn" />
+      <wsdl:output message="tns:getCalculationsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SimpleCalculatorSoap" type="tns:SimpleCalculatorSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="doTheMath">
+      <soap:operation soapAction="http://tempuri.org/doTheMath" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCalculations">
+      <soap:operation soapAction="http://tempuri.org/getCalculations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SimpleCalculatorSoap12" type="tns:SimpleCalculatorSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="doTheMath">
+      <soap12:operation soapAction="http://tempuri.org/doTheMath" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCalculations">
+      <soap12:operation soapAction="http://tempuri.org/getCalculations" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SimpleCalculator">
+    <wsdl:port name="SimpleCalculatorSoap" binding="tns:SimpleCalculatorSoap">
+      <soap:address location="http://localhost:9633/SimpleCalculator.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SimpleCalculatorSoap12" binding="tns:SimpleCalculatorSoap12">
+      <soap12:address location="http://localhost:9633/SimpleCalculator.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

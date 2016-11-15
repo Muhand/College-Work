@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="fcb274db-35f8-45f8-ad90-94e27e7bb12b"
+  name="Security"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="fb287e86-0762-49e7-8c7b-12878c5d4bcd"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3Ddmanager.Security"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="0cc53942-e293-4f99-9a95-4daef9ab947d"
+        name="LoginCredentials"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="93de7734-cc4f-42a6-ba54-0ebcbb13effc"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FDevelopment%2FC%2523%2FMy Liabraries%2Fdmanager%2Fdmanager - v4.5%2Fdmanager%2Fbin%2FDebug%2Fdmanager.dll&quot; Namespace%3Ddmanager.Security Type%3D(Name%3DLoginCredentials ArrayRank%3D1 ParentType%3DLoginCredentials)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a75fe3f9-f6f7-4f05-b233-283cfb67a5c3"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8dc00b51-2229-42b1-a8dd-07c88bd160d8">
+                <propertyInstance
+                  Id="1bb9cf24-a62b-471e-9e6f-4b5e398296eb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="31d25fcd-7dff-4df5-8149-339e01c5a077">
+                <propertyInstance
+                  Id="381a1670-9274-4342-9dbf-67a8596c80f0"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cd53dbf8-9e03-44ff-a298-ac10c7c136d3">
+                <propertyInstance
+                  Id="4ca59ea3-d1c5-446c-b57f-5162825104ed"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2000ca49-4f5b-4eef-b9d3-980efa17cc5a">
+                <propertyInstance
+                  Id="b1e315c2-94b7-44aa-85ef-ea9554d4a2ae"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5d20b371-d14b-4d5d-9d96-8f4bd877ef3e">
+                <propertyInstance
+                  Id="05b24b28-b6bb-4ff5-987a-0e84d24b09fe"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,78 @@
+﻿<Window x:Class="George_s_Car_Rental.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:George_s_Car_Rental"
+        xmlns:customControls="clr-namespace:George_s_Car_Rental.CustomControls"
+        xmlns:globals ="clr-namespace:George_s_Car_Rental.Classes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    
+    <!--Resources for the window-->
+    <Window.Resources>
+        <!--Instance of globals class in the window xaml-->
+        <globals:Globals x:Key="GlobalsClass"/>
+    </Window.Resources>
+    
+    <!--Declaration of main grid-->
+    <Grid Name="mainGrid" >
+        <!--Defining columns for the grid, setting 1 main column to take the entire width-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <!--Defining rows for the grid, setting the first row to be 8% of the entire height, and this will act as a 
+        'toolbar' where it holds the searchbox, cart and message box. the second row will hold the rest of the height which 
+        will be used to view the pages in it.-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.08*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        
+        <!--This grid is to hold the top toolbar which includes the searchbox, errormessages and cart view-->
+        <Grid Grid.Row="0" Grid.Column="0" Margin="0,10,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.95*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <!--Search Box-->
+            <DockPanel LastChildFill="True" Grid.Column="0">
+                <!--<StackPanel Orientation="Horizontal">-->
+                <TextBlock Text="Zip Code: " DockPanel.Dock="Left" VerticalAlignment="Center" FontSize="30" FontWeight="Bold" Margin="5,0,0,0"/>
+                <customControls:SearchBox FontSize="30" FontFamily="TimesNewRoman" x:Name="searchBox" Margin="0,0,0,0"/>
+                <!--</StackPanel>-->
+            </DockPanel>
+            
+            <!--Error Message-->
+            <!--Text="{Binding Source={StaticResource GlobalsClass}, Path=errorMessage}"-->
+            <Grid Grid.Column="1">
+                <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Auto" Margin="0,0,5,0">
+                    <TextBlock Foreground="Red" FontFamily="Arial" Text="{Binding Source={StaticResource GlobalsClass}, Path=errorMessage}"
+                           FontWeight="Bold" TextWrapping="Wrap" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                </ScrollViewer>
+            </Grid>
+            
+            <!--Cart Image and counter-->
+            <StackPanel Grid.Column="2" Orientation="Horizontal" Margin="0,0,10,0" Cursor="Hand" ToolTip="Your Cart" MouseDown="StackPanel_MouseDown">
+                <!--Cart Image-->
+                <Image Source="Images/ShoppingCart_50x50.png" Width="50" Height="50"/>
+                
+                <!--Cart Items Counter-->    
+                <Border Margin="4,0,0,0" CornerRadius="2" Background="Orange" Height="25">
+                    <TextBlock Foreground="White" TextWrapping="Wrap" Text="{Binding Source={StaticResource GlobalsClass}, Path=cartQuantity}"
+                               VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Margin="5,0,5,2"/>
+                </Border>
+            </StackPanel>
+            
+        </Grid>
+        
+        <!--This is the frame to hold the different pages and to handle showing different pages-->
+        <Frame Margin="0,10,0,0" x:Name="mainFrame" Grid.Row="1" Grid.Column="0" x:FieldModifier="public" NavigationUIVisibility="Hidden">
+            
+        </Frame>
+    </Grid>
+</Window>

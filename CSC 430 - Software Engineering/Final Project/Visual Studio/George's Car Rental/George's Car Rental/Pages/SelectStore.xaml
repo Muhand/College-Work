@@ -1,0 +1,57 @@
+﻿<Page x:Class="George_s_Car_Rental.Pages.SelectStore"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:customcontrols="clr-namespace:George_s_Car_Rental.CustomControls"
+      
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="SelectStore">
+
+    
+    <Grid>
+        <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Auto">
+        <StackPanel  Grid.Column="1" Grid.Row="1">
+
+            <Label Content="Select your store:" FontSize="30" FontWeight="Bold" FontFamily="Arial" Foreground="DarkGray"/>
+
+
+            <ListBox Name="searchResult" HorizontalContentAlignment="Stretch" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                <!--<ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.2*"/>
+                                <ColumnDefinition Width="0.6*"/>
+                                <ColumnDefinition Width="0.2*"/>
+                            </Grid.ColumnDefinitions>
+
+
+                            <Image Source="{Binding Image}" Grid.Column="0"/>
+
+                            <StackPanel Grid.Column="1" Margin="10,0,0,0">
+                                <TextBlock Name="Title" Text="{Binding StoreName}" FontSize="30"/>
+                                <TextBlock Name="Addres" Text="{Binding StoreAddress}" FontSize="15"/>
+                            </StackPanel>
+
+                            <Button Name="Select" Content="Select" Grid.Column="2" FontSize="30" Click="Select_Click" DataContext="{Binding SelectedStore}"/>
+
+
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>-->
+            </ListBox>
+
+            <!--<ListBox>
+                <ListBoxItem>
+                    <customcontrols:CustomListboxItem/>
+                </ListBoxItem>
+                <ListBoxItem>
+                    <customcontrols:CustomListboxItem Width="400" Height="200"/>
+                </ListBoxItem>
+            </ListBox>-->
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

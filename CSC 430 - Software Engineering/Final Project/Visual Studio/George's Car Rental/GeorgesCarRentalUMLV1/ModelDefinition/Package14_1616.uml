@@ -1,0 +1,1321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="6bf0c19f-9e9a-4d74-b8fb-6c96878dead9"
+  name="ViewModels"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="2eace985-4197-4c38-becb-253d667406ad"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DGeorge_s_Car_Rental.ViewModels"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="71fe9e0b-89b1-4ded-9ae3-a52269b3b286"
+        name="CarViewModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="426aacdf-8f50-432a-af40-0e706a945b1f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FCollege Work%2FCSC 430%2FFinal Project%2FVisual Studio%2FGeorge's Car Rental%2FGeorge's Car Rental%2Fbin%2FDebug%2FGeorges Car Rental.exe&quot; Namespace%3DGeorge_s_Car_Rental.ViewModels Type%3DCarViewModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="346fef06-f887-495e-90cf-632d9c3c35e6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6b65d36f-fc90-489b-ac30-6020c72d3de7">
+                <propertyInstance
+                  Id="600e8851-4099-4023-a9c3-8c56d2deaecd"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="081127ed-74e3-4bfb-aca2-f5327af1c64a">
+                <propertyInstance
+                  Id="e9ee6412-bf71-4a17-9d54-a7148bbfc1d3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="654779b0-2ece-478a-90e7-3ceadef0207e">
+                <propertyInstance
+                  Id="30defb05-fe4f-4cd3-8c9b-2ba8c40fe81c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ee0c7072-5617-4862-9976-906d5699b1fb">
+                <propertyInstance
+                  Id="1ebba58a-8551-448d-be28-d38227cd9789"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="05ca1947-630f-43e6-a273-6146d155ad32">
+                <propertyInstance
+                  Id="8d70a560-94cc-455f-bad4-21e06232192a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="92273cc8-bb23-43f6-a698-b509d6596401"
+            isDerived="false"
+            sourceEndRoleName="CarViewModel"
+            targetEndRoleName="CarsList"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="5253b196-327e-4841-bb93-ef3d403047a4"
+              LastKnownName="ObservableCollection&lt;Car‎&gt;"
+              LastKnownLocation="Package20_1616.uml" />
+            <description>Property CarsList references type ObservableCollection&lt;Car‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dadc907b-52bf-4898-a9db-0eed4b979d69"
+                  name="CarViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="4f610459-71d3-4275-9f66-1dc43d6d9e31"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="14f3a8b2-69a6-4c48-be68-155c25fb0b43"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8a4414a3-6dfd-4714-86fb-169b5b0842d6"
+                  name="CarsList"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="29061cb2-fc47-4489-9e43-77c427a57754"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="dcbcc328-fde6-4a90-985b-bce7a7956faf"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="eca1322e-c3d5-44b6-8738-032bcbf8d5a5"
+            name="CarsList"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="eb476a18-9126-487f-ba67-a15ad9fda93e"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FCollege Work%2FCSC 430%2FFinal Project%2FVisual Studio%2FGeorge's Car Rental%2FGeorge's Car Rental%2Fbin%2FDebug%2FGeorges Car Rental.exe&quot; Namespace%3DGeorge_s_Car_Rental.ViewModels Type%3DCarViewModel Member%3DCarsList"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d4fbc8f3-5558-4fef-abac-f07e3bfac80f"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46351aeb-8e21-4437-af04-917d4963ddc5">
+                    <propertyInstance
+                      Id="d585eab8-90e2-474f-a3ec-6e8450a1acb0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="000621c0-c152-48ec-af80-282c23a81ea6">
+                    <propertyInstance
+                      Id="4f30625b-6752-4bdd-88ad-fe4cecde32c5"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9afe25d-399d-474c-b384-56e65b889e59">
+                    <propertyInstance
+                      Id="08f27c3b-0c5a-4bd5-a7b4-b39eb07b1bd6"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c28d6304-182c-4fdf-a77a-ec42a3e14981">
+                    <propertyInstance
+                      Id="fe693909-23ab-44b0-a780-01b56dcbda80"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c5dafdc-1e86-442c-9de3-ce80596916c2">
+                    <propertyInstance
+                      Id="ea2ca38d-6191-4c57-8a9f-504eccf700d6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5556467f-695a-43fc-af43-14dac1441ec0">
+                    <propertyInstance
+                      Id="879d200c-4594-4f57-84b4-6b6d1a11d3b2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f232920-af12-4f33-869a-6926989b6892">
+                    <propertyInstance
+                      Id="60ad1d4d-7bb4-412c-96ff-41c49b7572aa"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="5253b196-327e-4841-bb93-ef3d403047a4"
+                LastKnownName="ObservableCollection&lt;Car‎&gt;"
+                LastKnownLocation="Package20_1616.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ba951fab-a46f-4236-9c99-290f862b81f7"
+            name="source"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="562135f2-5dcd-49ae-bc55-a8f855c2829b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FCollege Work%2FCSC 430%2FFinal Project%2FVisual Studio%2FGeorge's Car Rental%2FGeorge's Car Rental%2Fbin%2FDebug%2FGeorges Car Rental.exe&quot; Namespace%3DGeorge_s_Car_Rental.ViewModels Type%3DCarViewModel Member%3Dsource"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8a7ff901-b360-49eb-af9d-a802a3717a25"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f24fbe93-b18a-4d14-abbf-9df655eeb25c">
+                    <propertyInstance
+                      Id="be523e06-0d14-41e1-81be-ce3eadd81768"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c86d80d5-1e1f-45cf-a954-7071a6eaf564">
+                    <propertyInstance
+                      Id="1693d7d0-f6d6-4e49-9927-8f085d815dc9"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="976d9ac0-0274-4803-bd3f-def08b40ee58">
+                    <propertyInstance
+                      Id="a0500f72-3acc-4a2b-b4bd-a60fd8816fbf"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3ff9a0a-da52-4928-b477-e10493b5f1d9">
+                    <propertyInstance
+                      Id="c93557da-e8ba-4473-8606-49f5560f0f29"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2eec68ef-7168-44df-a268-13e31c9cacde">
+                    <propertyInstance
+                      Id="29e600bd-020d-4980-8a32-e17f392525f1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="9111c12f-9e2c-4fc3-80dc-b6c9b31b31eb"
+                LastKnownName="CarsData"
+                LastKnownLocation="Package21_1616.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a41d7474-9826-437f-9a15-29b2d6f1409a"
+            name="carsList"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a7ee05ee-040d-4c2f-b201-c2454a94e67e"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FCollege Work%2FCSC 430%2FFinal Project%2FVisual Studio%2FGeorge's Car Rental%2FGeorge's Car Rental%2Fbin%2FDebug%2FGeorges Car Rental.exe&quot; Namespace%3DGeorge_s_Car_Rental.ViewModels Type%3DCarViewModel Member%3DcarsList"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2a491c71-4f34-436a-a8f6-f9a6b5130ab0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76c07830-fceb-4f25-bd8f-8293e2f53ea4">
+                    <propertyInstance
+                      Id="4aa612fa-f4ef-421a-9f2c-f2465c3f0dc6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ecf74e86-fa71-434f-8443-5406e0a17e02">
+                    <propertyInstance
+                      Id="ff91ed1e-d6b9-431f-b52d-78ed729b701b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20c3e1c8-f050-48f2-871b-f06357a2bcb0">
+                    <propertyInstance
+                      Id="74831c36-6b34-4037-99f7-d1c8efbcaf86"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="abdc948d-c115-43a3-bd5f-6e9d5627db01">
+                    <propertyInstance
+                      Id="88769391-bcc6-45aa-a44a-12a49172ac87"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2bcd66de-9d64-4fbf-bf1e-daf9ccf76d37">
+                    <propertyInstance
+                      Id="c864edb3-c0ad-4616-bff1-815c8f8f8e08"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="5253b196-327e-4841-bb93-ef3d403047a4"
+                LastKnownName="ObservableCollection&lt;Car‎&gt;"
+                LastKnownLocation="Package20_1616.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="492a25c2-7c2c-41a2-9168-4448b194dc86"
+            name="CarViewModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9b99816d-ff48-4fb9-9d34-96ffa8f19d20"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FCollege Work%2FCSC 430%2FFinal Project%2FVisual Studio%2FGeorge's Car Rental%2FGeorge's Car Rental%2Fbin%2FDebug%2FGeorges Car Rental.exe&quot; Namespace%3DGeorge_s_Car_Rental.ViewModels Type%3DCarViewModel Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6b2a7d2a-5291-4f69-b58e-b8f483670e0d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9d37174-69dd-4195-832e-fdc9ed1f591d">
+                    <propertyInstance
+                      Id="e37738ff-08fb-47a0-9dac-c6090ee61a55"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1b526c5-ca2a-4d70-b806-3c5db3c1b972">
+                    <propertyInstance
+                      Id="4c91b8c1-4067-4c50-b4e1-8781dadb9c54"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63fe9f79-4fab-4905-8c88-10958c86a5e5">
+                    <propertyInstance
+                      Id="4fce221b-f47f-428c-aa38-f7ad5310e759"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a034d71-4001-4876-b282-7a1a6a0a4ec7">
+                    <propertyInstance
+                      Id="c863ccb6-f5be-4736-92bf-ff764bed9ace"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="107260bf-0b63-4660-911e-d1a48053e1f7">
+                    <propertyInstance
+                      Id="fda37624-76d3-4315-80a5-6a718fb771cd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f74da7c-e55a-4c4f-a734-46aba2790905">
+                    <propertyInstance
+                      Id="29d93f72-ccba-4e8b-9ea8-db5909ad34cf"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4cbc1984-4252-408a-8d78-d55c2f7d1230"
+        name="GadgetViewModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b7d98a07-0d06-419c-8aae-af733716e404"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FCollege Work%2FCSC 430%2FFinal Project%2FVisual Studio%2FGeorge's Car Rental%2FGeorge's Car Rental%2Fbin%2FDebug%2FGeorges Car Rental.exe&quot; Namespace%3DGeorge_s_Car_Rental.ViewModels Type%3DGadgetViewModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f975ce3d-54f6-45af-af5e-f52120997f85"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bf25d26d-4f44-43cf-bd4b-60c0c90c2dfe">
+                <propertyInstance
+                  Id="5266178d-f27e-400b-bb9b-dca11db2a81b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="35195273-1697-4770-9a7a-9e0730cc7ca5">
+                <propertyInstance
+                  Id="d0036caa-6b98-4cde-8167-c7f9a5bcf762"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="11b0626e-7521-43ed-a0db-edcb75bf5ea2">
+                <propertyInstance
+                  Id="b9414798-d8a1-4a43-bf87-1bc224653e95"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8fd9de25-3a01-4208-9f9f-f859fa02c77e">
+                <propertyInstance
+                  Id="dea1b734-466a-4909-87ad-76b4f07294ff"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bf584bde-43bd-43ae-bf69-ec7ad545e152">
+                <propertyInstance
+                  Id="cab79cb1-28b3-41e2-8c8b-5ea7df7ba019"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="23360552-8db9-44b8-857c-6e18cd7c59ea"
+            isDerived="false"
+            sourceEndRoleName="GadgetViewModel"
+            targetEndRoleName="GadgetsList"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c4fc6e69-0bcf-4987-ba9c-ac92d3c8baad"
+              LastKnownName="ObservableCollection&lt;Gadget‎&gt;"
+              LastKnownLocation="Package20_1616.uml" />
+            <description>Property GadgetsList references type ObservableCollection&lt;Gadget‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="eda9eb4d-ef56-401d-af48-7ba6b9713c8e"
+                  name="GadgetViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0f248d8f-d1f4-4320-a893-910e5772f56e"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="f2a97b0c-6983-4d4b-b77b-148951dddc08"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8c206a69-71c0-4de2-8444-212fc05772cf"
+                  name="GadgetsList"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="31a3d090-dd79-4b74-9b30-40fdf9ea0cbd"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="62e35efe-c6a7-4560-b113-c8fd04efc9db"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="c8fa5507-ee3c-4579-bd07-45d1c9ec28a5"
+            name="GadgetsList"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0c77d283-9d30-463c-819e-b4b737b3c0a4"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FCollege Work%2FCSC 430%2FFinal Project%2FVisual Studio%2FGeorge's Car Rental%2FGeorge's Car Rental%2Fbin%2FDebug%2FGeorges Car Rental.exe&quot; Namespace%3DGeorge_s_Car_Rental.ViewModels Type%3DGadgetViewModel Member%3DGadgetsList"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ba3483a3-75b6-40d7-a62b-df0eb0f93857"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fdefb5c5-451b-41b4-abb6-f366f400091e">
+                    <propertyInstance
+                      Id="13fa763e-dba3-4366-85a2-9213523b82e0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71d53d63-9986-433b-ae0e-141089a44687">
+                    <propertyInstance
+                      Id="105d05d2-a818-45ee-bf5b-2310760a0f5d"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6309360f-d3a1-4575-af82-f9d8aac0d9d1">
+                    <propertyInstance
+                      Id="f8572c1f-1618-4d9a-9975-ea128da0b8c2"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e09f4dd9-c114-481f-bc18-f4f1bac9d15b">
+                    <propertyInstance
+                      Id="827bc059-16ae-46ba-befc-ee0a432cf26d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b3cfed0-e470-4847-82dd-8ce48315a01b">
+                    <propertyInstance
+                      Id="917d6653-0802-4045-866b-212065077bd4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="140050b9-f6a4-46db-adb5-4e3a957e9530">
+                    <propertyInstance
+                      Id="d7a700ac-46fc-4ad9-b957-f4271b987f7c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="512d0821-9a6e-4ce1-9ec5-38e603d14016">
+                    <propertyInstance
+                      Id="011b4642-4b31-4b55-b497-7f5b521cfd31"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c4fc6e69-0bcf-4987-ba9c-ac92d3c8baad"
+                LastKnownName="ObservableCollection&lt;Gadget‎&gt;"
+                LastKnownLocation="Package20_1616.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f1ccd5b4-e823-465d-b11d-ea605c349e1e"
+            name="source"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="57b651c2-859c-481f-ba9d-bc865f0ba8e4"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FCollege Work%2FCSC 430%2FFinal Project%2FVisual Studio%2FGeorge's Car Rental%2FGeorge's Car Rental%2Fbin%2FDebug%2FGeorges Car Rental.exe&quot; Namespace%3DGeorge_s_Car_Rental.ViewModels Type%3DGadgetViewModel Member%3Dsource"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="df32ceb6-1c19-425a-b775-35ac7b29f03e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7fe7056-eaa0-46da-b258-994057a74193">
+                    <propertyInstance
+                      Id="570e8c3c-2119-4a76-82ac-1b0ff73f16a3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43c9849f-0d3c-4b19-9e60-da8ed2ae2eb2">
+                    <propertyInstance
+                      Id="9759002c-5f8f-44f9-99d7-56f526aefd01"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25499400-8d1d-43cd-ac9f-9999209c499f">
+                    <propertyInstance
+                      Id="5d21df4a-90e1-4d3b-89a7-4644148ce016"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da531cd8-f32d-4698-9e20-75e7f62e972c">
+                    <propertyInstance
+                      Id="8940515d-a8a9-40c6-b816-2a7269cdeeee"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76026053-3ffa-44d3-b42c-45d7ec64c95d">
+                    <propertyInstance
+                      Id="efe0d3ce-8c47-4b5d-a5ec-6717519a39aa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="01caabf5-9198-488f-a52a-666b89885912"
+                LastKnownName="GadgetsData"
+                LastKnownLocation="Package21_1616.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a88873c9-c244-463f-b3a7-3fd2974c1bfd"
+            name="gadgetsList"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="daf23f96-302f-490d-94b6-a0e6afb21831"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FCollege Work%2FCSC 430%2FFinal Project%2FVisual Studio%2FGeorge's Car Rental%2FGeorge's Car Rental%2Fbin%2FDebug%2FGeorges Car Rental.exe&quot; Namespace%3DGeorge_s_Car_Rental.ViewModels Type%3DGadgetViewModel Member%3DgadgetsList"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ca4cd279-8ba9-4f93-b9f5-e1aa030ec6f2"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ed626b6-388b-4b39-9c34-bbdc24c02467">
+                    <propertyInstance
+                      Id="d83d5f8b-2637-4bb7-bb3b-d009a57e9b06"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5692bdaa-52c7-4d55-8720-14238a963f9f">
+                    <propertyInstance
+                      Id="598906fa-c61c-4501-bcb5-a89beb0c7da4"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cdf3122d-1ac3-49de-8ea0-2e9164124a72">
+                    <propertyInstance
+                      Id="140ac2ef-2efe-466f-a6f7-69c7e76b49d9"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="433f8ee1-522d-4dfa-93df-1e33530b6e8d">
+                    <propertyInstance
+                      Id="36680fcd-ff41-4e40-8d89-dda9da10b47e"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62434aff-140e-48a3-ba37-d826e1aab064">
+                    <propertyInstance
+                      Id="c3ea3b18-5d74-431e-923d-c386928cd4be"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c4fc6e69-0bcf-4987-ba9c-ac92d3c8baad"
+                LastKnownName="ObservableCollection&lt;Gadget‎&gt;"
+                LastKnownLocation="Package20_1616.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ad57c870-c174-48e4-bf3e-1e0003b92a0b"
+            name="GadgetViewModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5ab91907-6026-44dc-a5d9-a26bcd44ce99"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FCollege Work%2FCSC 430%2FFinal Project%2FVisual Studio%2FGeorge's Car Rental%2FGeorge's Car Rental%2Fbin%2FDebug%2FGeorges Car Rental.exe&quot; Namespace%3DGeorge_s_Car_Rental.ViewModels Type%3DGadgetViewModel Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="25dfee00-ac04-4f9c-a0b8-4ef4cd75d4b5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0b22316-80c3-49f4-a0bb-5f0af024cfc4">
+                    <propertyInstance
+                      Id="95e841dd-7ed9-461c-b250-ae8e84d6ab12"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="623bd171-a0c5-4b11-a965-d13a4f71c5c3">
+                    <propertyInstance
+                      Id="5e89ae3e-b691-49f5-8e76-755207dd8d43"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3efd1e36-e205-4a45-beb1-2dfcb481db84">
+                    <propertyInstance
+                      Id="f3f1c5dc-8aa8-468d-a4a9-2890269e882d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4274bd6b-904b-4474-923b-99524d0accbd">
+                    <propertyInstance
+                      Id="3a5fa341-49bc-44e2-b446-b7f7f0866e8f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="639916bf-a9a2-431f-89ef-c993ecc49281">
+                    <propertyInstance
+                      Id="e914092e-f887-455a-98c0-4917626fdd28"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f667728f-edf3-4268-b2df-20de3566627c">
+                    <propertyInstance
+                      Id="a07a66c5-76ac-47f2-b9d7-b22f1bc82028"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2d6d9607-a81e-4fc3-8355-bcab6db0a439"
+        name="StoreViewModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f46b1781-fe0c-4c81-ae4a-62e5a4965e57"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FCollege Work%2FCSC 430%2FFinal Project%2FVisual Studio%2FGeorge's Car Rental%2FGeorge's Car Rental%2Fbin%2FDebug%2FGeorges Car Rental.exe&quot; Namespace%3DGeorge_s_Car_Rental.ViewModels Type%3DStoreViewModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3dc25489-448f-4df7-8687-a7feee64ce5b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a60f0e81-4e5d-45d3-be02-7ca57ad52f5f">
+                <propertyInstance
+                  Id="f4d372c7-0e2e-4d2d-ad0f-25c1afca96c2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9600ca5d-ceab-4beb-a125-54e4b42f63c3">
+                <propertyInstance
+                  Id="d14946ef-2cf6-4b23-8ed5-c0f6b44dde63"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7bf9ad76-5010-4bdf-89d2-8e41f540d45c">
+                <propertyInstance
+                  Id="e2acf162-c23c-4f6d-a84a-cf5076dda13b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b821f7fe-008c-4031-8bae-cf7c5f8dc8c8">
+                <propertyInstance
+                  Id="e1496607-0ba6-4766-bf77-9a489c4570ac"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6f470f74-190f-47fb-8b0b-8597fd58f81f">
+                <propertyInstance
+                  Id="0bc4c2af-086f-4a0f-bd72-05f94358e9ac"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="2e276e6d-1e4a-4178-9295-47bb9b325641"
+            isDerived="false"
+            sourceEndRoleName="StoreViewModel"
+            targetEndRoleName="StoresList"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="6d554369-dc36-476c-9550-49d6ec65f850"
+              LastKnownName="ObservableCollection&lt;Store‎&gt;"
+              LastKnownLocation="Package20_1616.uml" />
+            <description>Property StoresList references type ObservableCollection&lt;Store‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="94e780ab-071a-4b15-a2ad-070655084158"
+                  name="StoreViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="dabf45b7-1a29-4807-ad91-25de778670d4"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="4497962f-da43-4fd5-ae41-2c8e24ddf3c6"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5a535166-2d72-49b5-b77b-e45dd8faf389"
+                  name="StoresList"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="512e110c-c2c3-4a4b-9ca8-37849ca5e94c"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2cea0867-0285-4ca7-b457-88f7144fb009"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="eb09f8a2-2b8c-49ba-898b-06a665823fd5"
+            name="StoresList"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c9e19ace-d3d7-4857-a41f-3532ec74f4b5"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FCollege Work%2FCSC 430%2FFinal Project%2FVisual Studio%2FGeorge's Car Rental%2FGeorge's Car Rental%2Fbin%2FDebug%2FGeorges Car Rental.exe&quot; Namespace%3DGeorge_s_Car_Rental.ViewModels Type%3DStoreViewModel Member%3DStoresList"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b0f2e1e3-90a5-4a2f-a4f8-d80f40fb2909"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d243207e-c6ec-4dc0-b5b7-a86d98db41e3">
+                    <propertyInstance
+                      Id="fc7b8b02-602e-4b1f-8c81-310d537198c7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63397e09-13b8-4be6-8bdd-2f867687dc41">
+                    <propertyInstance
+                      Id="39e35aac-319f-4c57-b9d8-9c9e20a82046"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3f1bb64-d2fa-4502-8dd3-ecc77a37fdde">
+                    <propertyInstance
+                      Id="9f87c9de-7d88-4122-a6c3-e4b07fc09937"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="acfb1965-ef4e-4af9-8639-03cdc8b8baef">
+                    <propertyInstance
+                      Id="6c45c8f6-95df-4a49-8cfd-659f88cad1ca"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8b6e160-718c-450b-83f6-d1a3b9d11c21">
+                    <propertyInstance
+                      Id="b1c9cdd4-967f-413d-ba6a-7af40cb85c83"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50fe8df1-50c8-4c9f-82e5-ecd36ecb8263">
+                    <propertyInstance
+                      Id="5b151ce2-5cab-466d-8c21-46be517c3f84"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="653b22ef-edd0-497c-9187-91209c91b9b8">
+                    <propertyInstance
+                      Id="e08d7542-84a2-4eee-a6fa-5d5034a22f67"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="6d554369-dc36-476c-9550-49d6ec65f850"
+                LastKnownName="ObservableCollection&lt;Store‎&gt;"
+                LastKnownLocation="Package20_1616.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7b305049-62ea-4c74-8ea2-a0271f6d43a7"
+            name="source"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0e9c3e56-cbc7-4f6a-860a-3539fb13b71f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FCollege Work%2FCSC 430%2FFinal Project%2FVisual Studio%2FGeorge's Car Rental%2FGeorge's Car Rental%2Fbin%2FDebug%2FGeorges Car Rental.exe&quot; Namespace%3DGeorge_s_Car_Rental.ViewModels Type%3DStoreViewModel Member%3Dsource"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="13e83572-47a2-40ab-8262-0d1f18739794"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77a8cb1c-8138-468e-a84e-38c7fb29eec0">
+                    <propertyInstance
+                      Id="fe0adb93-dd9a-43dc-aad2-877040d0663a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a820542-054c-4c10-9f9c-2324ef2a95ed">
+                    <propertyInstance
+                      Id="5309e0e9-6f99-4974-81a5-b3002acdfc64"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52f79ebf-911a-461a-a5a0-221f61e41761">
+                    <propertyInstance
+                      Id="5dc44264-ac9d-4af1-add8-f7eb14611ad6"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9517005b-2d7f-4f3b-8b07-1229aa9859a0">
+                    <propertyInstance
+                      Id="115bfdbb-e359-4c9c-8232-a97c3ae57a4a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8158ce36-9646-4a67-b663-a0dfb5881765">
+                    <propertyInstance
+                      Id="da7f8e3e-6976-4b7d-b1f5-cbb2ef867e20"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="78a0a0fb-cf23-456c-91ec-450aec7fd316"
+                LastKnownName="StoresData"
+                LastKnownLocation="Package21_1616.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="67ff63bf-562d-44b6-b833-67ebd953423e"
+            name="storesList"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0a6b0d43-ee02-488c-99e8-0dffcec34906"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FCollege Work%2FCSC 430%2FFinal Project%2FVisual Studio%2FGeorge's Car Rental%2FGeorge's Car Rental%2Fbin%2FDebug%2FGeorges Car Rental.exe&quot; Namespace%3DGeorge_s_Car_Rental.ViewModels Type%3DStoreViewModel Member%3DstoresList"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f3e2c979-d2f2-4d6f-914d-54feb926c5cb"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c7c3d0f-1233-4dea-9369-29c94b4c7de6">
+                    <propertyInstance
+                      Id="3d84daf2-ca70-4ed8-880e-7525dfe3e6c1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21ebc041-79b2-4bb7-accf-7ee720f8b89c">
+                    <propertyInstance
+                      Id="368c3321-e876-4bdc-af4d-3462ed1ca338"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a20f961f-012c-4b69-a708-eff33fc5da55">
+                    <propertyInstance
+                      Id="2356b3d8-b3d8-4c1d-99d2-159b182313d9"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="742442a2-6d01-487f-8a2b-b35098b84295">
+                    <propertyInstance
+                      Id="f7b12a15-7085-489b-8aba-12c422e13901"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f279630c-fd75-472f-b1b0-7b3a9850fa5f">
+                    <propertyInstance
+                      Id="62d1e374-285a-435d-89cf-d5801b09846a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="6d554369-dc36-476c-9550-49d6ec65f850"
+                LastKnownName="ObservableCollection&lt;Store‎&gt;"
+                LastKnownLocation="Package20_1616.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="8a86a557-c1d5-41c2-8209-f19645df1e4c"
+            name="ToString"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ad03540a-7962-4080-8764-b14d299240a4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FCollege Work%2FCSC 430%2FFinal Project%2FVisual Studio%2FGeorge's Car Rental%2FGeorge's Car Rental%2Fbin%2FDebug%2FGeorges Car Rental.exe&quot; Namespace%3DGeorge_s_Car_Rental.ViewModels Type%3DStoreViewModel Member%3DToString"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9a02ebb8-371b-427a-803a-0fbe48403a2b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7bff729d-749f-4d2c-a2b4-f2d6450e351f">
+                    <propertyInstance
+                      Id="f22f5561-bf12-4c0f-9348-772bc30cf200"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46ac54fe-5073-4964-80ca-068fc97c4ac2">
+                    <propertyInstance
+                      Id="71cc897e-6317-4deb-a060-56f61d225055"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bba10669-4fea-4bdf-be81-c925dc05e896">
+                    <propertyInstance
+                      Id="27e46f96-7d4e-402f-87e5-5f82980a9994"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88157843-9837-4ddb-ac35-ec2d4cac0bbb">
+                    <propertyInstance
+                      Id="d8b421f0-70f3-48af-8551-06301c3695c4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6820e5d5-5ba4-489a-a100-1f29a8ac9ea4">
+                    <propertyInstance
+                      Id="9316a935-e16c-4b7a-b921-a3f048206cef"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b432fed-850c-4a16-bda1-1970205d5b6f">
+                    <propertyInstance
+                      Id="a79af19d-0b38-46f4-ada1-279b194f9fe0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b23d3950-bd16-4844-b24c-c4c49bcb6bf6"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="GeorgesCarRentalUMLV1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="decaacdd-659f-4efe-a0be-c01992f04d11"
+            name="StoreViewModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="51ddef49-6189-4a98-a5d4-826fe93c5cf2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FF:%2FAsus computer%2FCollege Work%2FCSC 430%2FFinal Project%2FVisual Studio%2FGeorge's Car Rental%2FGeorge's Car Rental%2Fbin%2FDebug%2FGeorges Car Rental.exe&quot; Namespace%3DGeorge_s_Car_Rental.ViewModels Type%3DStoreViewModel Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="49097e71-be94-4bdb-89e6-23c1776650ef"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e46d794a-fc61-4677-8203-9d3ab65dd126">
+                    <propertyInstance
+                      Id="ffa53fbb-7725-44c2-8bf2-c7449ad726f4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6074b310-55c1-4a9a-bb41-f2af79ce10df">
+                    <propertyInstance
+                      Id="a857fe65-f388-40a9-b8e0-051f53bd37f8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="185d807b-8638-49da-bc20-24d18968e602">
+                    <propertyInstance
+                      Id="042d05a2-0625-4c2e-a32b-068eb07770d4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84ebce39-28d3-4821-aafc-fe7a76242fbf">
+                    <propertyInstance
+                      Id="1170f7f2-7206-4e9b-9143-7ec4da745cb7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39d7dda6-04c3-4428-bcd8-5757095d7a0f">
+                    <propertyInstance
+                      Id="1014baa7-c08b-458e-bd1a-79c2be1e8138"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="05bb77fe-eac4-4f29-95e2-cf85d337377b">
+                    <propertyInstance
+                      Id="d860d0a1-de1f-4a01-9dca-d1b3bdd3207e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

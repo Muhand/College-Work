@@ -1,0 +1,108 @@
+﻿<Page x:Class="George_s_Car_Rental.Pages.ViewCart"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="ViewCart">
+
+    <Grid>
+        <ScrollViewer>
+            <!--Divide the page into 3 items, the list: To hold all the items in cart,
+            Seperator to sperate the items from the summary,
+            and the orderSummary: to show the user a summary of their order information.-->
+            <StackPanel>
+                <!--List of the items-->
+                <ListBox Name="cartItems" HorizontalContentAlignment="Stretch" ScrollViewer.VerticalScrollBarVisibility="Auto" BorderThickness="0">
+
+                </ListBox>
+                
+                <!--The seperator to seperate the stackpanel, it's a grid because we want to control it's width 
+                from right and left, by setting columnDefinitions and having it be the middle definition.-->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.1*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="0.1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Separator Grid.Column="1"/>
+                </Grid>
+
+                <!--The actualy order summary grid, every item is inside a seperate grid in order to control margin, width and etc...-->
+                <Grid Margin="0,10,0,0" HorizontalAlignment="Center">
+                    <Border BorderThickness="1" BorderBrush="Gray" CornerRadius="3">
+                        <StackPanel Margin="10">
+                            <TextBlock Text="Order Summary" FontSize="18" FontWeight="ExtraBold" Foreground="Black"/>
+
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="Cars: " FontSize="16" Foreground="Black" Grid.Column="0"/>
+                                <TextBlock Text="$0.00" FontSize="16" Foreground="Black" Grid.Column="2" Name="carsTotal"/>
+                            </Grid>
+
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="Gadgets: " FontSize="16" Foreground="Black" Grid.Column="0"/>
+                                <TextBlock Text="$0.00" FontSize="16" Foreground="Black" Grid.Column="2" Name="gadgetsTotal"/>
+                            </Grid>
+                            <Separator/>
+
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="Total before tax: " FontSize="16" Foreground="Black" Grid.Column="0"/>
+                                <TextBlock Text="$0.00" FontSize="16" Foreground="Black" Grid.Column="2" Name="totalbeforetax"/>
+                            </Grid>
+
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="Estimated tax to be collected: " FontSize="16" Foreground="Black" Grid.Column="0"/>
+                                <TextBlock Margin="50,0,0,0" Text="$0.00" FontSize="16" Foreground="Black" Grid.Column="2" Name="estimatedtax"/>
+                            </Grid>
+
+                            <Separator/>
+
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="Order total: " FontSize="20" Foreground="DarkOrange" FontWeight="ExtraBold" Grid.Column="0"/>
+                                <TextBlock Text="$0.00" FontSize="20" Foreground="DarkOrange" FontWeight="ExtraBold" Grid.Column="2" Name="ordertoal"/>
+                            </Grid>
+
+
+
+                            <Button Margin="0,10,0,0" Content="Checkout" Foreground="Black" FontSize="20" BorderThickness="0" Padding="10" Click="Button_Click">
+                                <Button.Background>
+                                    <LinearGradientBrush EndPoint="0.504,1.5" StartPoint="0.504,0.03">
+                                        <GradientStop Color="DarkOrange" Offset="0"/>
+                                        <GradientStop Color="Orange" Offset="0.567"/>
+                                    </LinearGradientBrush>
+                                </Button.Background>
+                            </Button>
+
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a18a54cd-cf4f-4c76-bcf5-75a45cf2d2bc"
+  name="Windows"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="2beada00-d74d-49b1-b8fa-7b6a1e8d8406"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Windows"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e992c408-1480-42ab-8d83-ba0e98887ca8"
+        LastKnownName="Markup"
+        LastKnownLocation="Package4_1643.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="2c2b920b-a45e-4f37-8371-0a34dd337984"
+        LastKnownName="Input"
+        LastKnownLocation="Package6_1643.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="5a83d234-b0e3-45e1-b79a-f8ebc97a7a6b"
+        LastKnownName="Controls"
+        LastKnownLocation="Package7_1643.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7007c39a-447d-40ff-b7be-274f3f4e6983"
+        name="Window"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="64cb891b-9e85-4814-9861-87917c446fa2"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FPresentationFramework.dll&quot; Namespace%3DSystem.Windows Type%3DWindow"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="107ad5a0-385f-4754-8533-2c8c6f953e7e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="adc25389-9228-438e-a286-4bc2ed6c62fe">
+                <propertyInstance
+                  Id="829a312a-4de9-43de-89fc-7671c3d3c48f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f5fb88eb-e755-408f-abfd-8d5485371298">
+                <propertyInstance
+                  Id="cb93b546-3583-481a-9833-ad775ff880a1"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cd692b1b-2a0c-4fec-a43a-6deda02ccb4b">
+                <propertyInstance
+                  Id="e9e445b3-1c8d-4c6c-988b-97029a24b904"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e2a17b84-5835-4ac1-8eb1-565536b7bc89">
+                <propertyInstance
+                  Id="2245ea2f-0f62-4320-b1a3-d25eaee2da0b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0df4f442-b783-43ef-8d3f-a03d6d937557">
+                <propertyInstance
+                  Id="8c07a7fa-fb87-4cd7-80b4-676ce5630631"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="194042df-4fec-4b29-8304-c1d0e10dd969"
+        LastKnownName="Media"
+        LastKnownLocation="Package1_1705.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

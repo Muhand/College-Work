@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2016-05-21T16:41:19" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental' -  (Package)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::CustomControls' -  (Package)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::CustomControls::SearchBox' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Medium" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow' -  (Class)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow::_contentLoaded' -  (Property)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow::_CreateDelegate' -  (Operation)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow::_CreateDelegate::delegateType' -  (Parameter)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow::_CreateDelegate::handler' -  (Parameter)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow::InitializeComponent' -  (Operation)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow::mainFrame' -  (Property)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow::mainGrid' -  (Property)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow::MainWindow' -  (Operation)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow::searchBox' -  (Property)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow::StackPanel_MouseDown' -  (Operation)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow::StackPanel_MouseDown::e' -  (Parameter)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow::StackPanel_MouseDown::sender' -  (Parameter)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow::System‎.Windows‎.Markup‎.IComponentConnector‎.Connect' -  (Operation)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow::System‎.Windows‎.Markup‎.IComponentConnector‎.Connect::connectionId' -  (Parameter)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow::System‎.Windows‎.Markup‎.IComponentConnector‎.Connect::target' -  (Parameter)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::System' -  (Package)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::System::Delegate' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::System::Object' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::System::Type' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::System::Windows' -  (Package)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::System::Windows::Controls' -  (Package)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::System::Windows::Controls::Frame' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::System::Windows::Controls::Grid' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::System::Windows::Input' -  (Package)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::System::Windows::Input::MouseButtonEventArgs' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::System::Windows::Markup' -  (Package)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::System::Windows::Markup::IComponentConnector' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'GeorgesCarRentalUMLV1::System::Windows::Window' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow to GeorgesCarRentalUMLV1::System::Windows::Markup::IComponentConnector (InterfaceRealization)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: GeorgesCarRentalUMLV1::George_s_Car_Rental::MainWindow to GeorgesCarRentalUMLV1::System::Windows::Window (Generalization)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: GeorgesCarRentalUMLV1::System::Windows::Input::MouseButtonEventArgs to GeorgesCarRentalUMLV1::System::Windows::Input::MouseEventArgs (Generalization)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: GeorgesCarRentalUMLV1::George_s_Car_Rental::CustomControls::SearchBox to GeorgesCarRentalUMLV1::System::Windows::Markup::IComponentConnector (InterfaceRealization)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: GeorgesCarRentalUMLV1::George_s_Car_Rental::CustomControls::SearchBox to GeorgesCarRentalUMLV1::System::Windows::Controls::UserControl (Generalization)" />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="High" Text="(9) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2016-05-21T16:41:20" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

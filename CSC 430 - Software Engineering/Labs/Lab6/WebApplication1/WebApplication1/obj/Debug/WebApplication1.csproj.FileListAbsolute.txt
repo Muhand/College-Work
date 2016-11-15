@@ -1,0 +1,8 @@
+c:\users\muhand\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+c:\users\muhand\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll
+c:\users\muhand\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+c:\users\muhand\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+c:\users\muhand\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+c:\users\muhand\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+c:\users\muhand\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\SharedProject.dll
+c:\users\muhand\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\SharedProject.pdb

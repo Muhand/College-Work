@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="54ddc9de-58e7-4105-80c9-94a35b0f0fbd"
+  name="MySqlClient"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="78dbc528-3297-4a1c-a06d-d71c734ed305"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMySql.Data.MySqlClient"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="b04d5777-f13d-4ddf-9df3-974f6d8cd9cc"
+        name="MySqlConnection"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ee7749b0-f370-4e2a-ac9a-ee30f6282be2"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FMySQL%2FConnector NET 6.8.3%2FAssemblies%2Fv4.5%2FMySql.Data.dll&quot; Namespace%3DMySql.Data.MySqlClient Type%3DMySqlConnection"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="816994d9-6fbd-4eda-bdbe-431145879fce"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a35130cf-9d13-4b6b-985b-ff34f1d2dd5d">
+                <propertyInstance
+                  Id="4aa48058-a562-4db5-b2bb-d63edaef3c0d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6c4e5778-07de-4e4d-a36c-49b52c0adea1">
+                <propertyInstance
+                  Id="1affc4b6-7570-4983-bf72-41837bac9963"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1c2c3861-2b9f-4cef-9681-eb2b599b82d3">
+                <propertyInstance
+                  Id="e9a8b703-8500-421c-8d64-912207e144fa"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b899e6c3-25c1-4e5e-a724-145c6c3ae5f6">
+                <propertyInstance
+                  Id="ad1fb9f4-cb6f-43c8-98cc-be2cb2f3688c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c061a65a-205b-43bb-92f2-db5e24b7aef6">
+                <propertyInstance
+                  Id="8e4e3fac-3a42-4bcb-919e-f59b5f43ef2c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

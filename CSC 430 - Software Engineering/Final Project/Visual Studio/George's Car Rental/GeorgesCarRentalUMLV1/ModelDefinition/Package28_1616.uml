@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="fbf88cce-d915-4965-9abb-79a2ad3ad8b4"
+  name="MySqlClient"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="7479233f-d1fc-4d22-9bee-5641978c8104"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMySql.Data.MySqlClient"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="068604c9-354b-4867-b5c3-a6b2a33920d7">
+      <profileInstance
+        Id="5918330e-0a2d-4445-92c5-ec8b011dbe70"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="07ef4a28-7acd-45aa-a7b8-19697af7302a"
+        name="MySqlConnection"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1050012f-0da3-4370-8ce1-e388710d238a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FMySQL%2FConnector NET 6.8.3%2FAssemblies%2Fv4.5%2FMySql.Data.dll&quot; Namespace%3DMySql.Data.MySqlClient Type%3DMySqlConnection"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="aacd7b90-bd76-47bf-872d-a997f67828f6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1d3c5a76-f116-4812-85c8-6ade285fe181">
+                <propertyInstance
+                  Id="2ce66d73-2321-4d0f-b3b7-bd709d6cc270"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="85587e7a-8495-48ad-a670-7b955040e967">
+                <propertyInstance
+                  Id="65148ed1-fd1d-438e-badf-3f7efc877c0b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4aeecd20-7606-4b3a-a8b3-c22acdae7780">
+                <propertyInstance
+                  Id="7b420c9b-af89-41d4-afbc-6320fe042a15"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="007d9331-8308-40d8-8911-bb59e4655441">
+                <propertyInstance
+                  Id="dc87a000-7d8d-4d39-a91a-c83d76cd78a9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="52978586-e513-4376-9d92-43cf244f0d83">
+                <propertyInstance
+                  Id="a238b0e8-5932-401d-a817-991b020f8056"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

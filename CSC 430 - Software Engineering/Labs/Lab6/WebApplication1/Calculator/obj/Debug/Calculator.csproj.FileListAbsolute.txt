@@ -1,0 +1,8 @@
+c:\users\muhand\documents\visual studio 2015\Projects\WebApplication1\Calculator\bin\Calculator.dll.config
+c:\users\muhand\documents\visual studio 2015\Projects\WebApplication1\Calculator\bin\Calculator.dll
+c:\users\muhand\documents\visual studio 2015\Projects\WebApplication1\Calculator\bin\Calculator.pdb
+c:\users\muhand\documents\visual studio 2015\Projects\WebApplication1\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+c:\users\muhand\documents\visual studio 2015\Projects\WebApplication1\Calculator\obj\Debug\Calculator.dll
+c:\users\muhand\documents\visual studio 2015\Projects\WebApplication1\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Muhand\Documents\Visual Studio 2015\Projects\WebApplication1\Calculator\bin\SharedProject.dll
+C:\Users\Muhand\Documents\Visual Studio 2015\Projects\WebApplication1\Calculator\bin\SharedProject.pdb

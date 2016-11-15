@@ -1,0 +1,17 @@
+/*
+-- Query: SELECT * FROM georgescarrentdb.gadgets
+LIMIT 0, 1000
+
+-- Date: 2016-05-24 02:01
+*/
+INSERT INTO `gadgets` (`ID`,`image`,`name`,`description`,`price`,`cars_ID`,`cars_stores_ID`,`quantity_available`) VALUES (5,?,'Baby Seat','This is a great and safe seat for your kid(s).',50,9,10,10);
+INSERT INTO `gadgets` (`ID`,`image`,`name`,`description`,`price`,`cars_ID`,`cars_stores_ID`,`quantity_available`) VALUES (6,?,'GPS','Get a gps and find your way.',80,9,10,3);
+INSERT INTO `gadgets` (`ID`,`image`,`name`,`description`,`price`,`cars_ID`,`cars_stores_ID`,`quantity_available`) VALUES (6,?,'GPS','Get a gps and find your way.',80,10,10,3);
+INSERT INTO `gadgets` (`ID`,`image`,`name`,`description`,`price`,`cars_ID`,`cars_stores_ID`,`quantity_available`) VALUES (6,?,'GPS','Get a gps and find your way.',80,11,10,3);
+INSERT INTO `gadgets` (`ID`,`image`,`name`,`description`,`price`,`cars_ID`,`cars_stores_ID`,`quantity_available`) VALUES (6,?,'GPS','Get a gps and find your way.',80,12,10,3);
+INSERT INTO `gadgets` (`ID`,`image`,`name`,`description`,`price`,`cars_ID`,`cars_stores_ID`,`quantity_available`) VALUES (6,?,'GPS','Get a gps and find your way.',80,13,10,3);
+INSERT INTO `gadgets` (`ID`,`image`,`name`,`description`,`price`,`cars_ID`,`cars_stores_ID`,`quantity_available`) VALUES (7,?,'AUX Cable','Listen to your music with AUX cable.',5,9,10,15);
+INSERT INTO `gadgets` (`ID`,`image`,`name`,`description`,`price`,`cars_ID`,`cars_stores_ID`,`quantity_available`) VALUES (8,?,'Baby Seat','This is a great and safe seat for your kid(s).',50,10,10,10);
+INSERT INTO `gadgets` (`ID`,`image`,`name`,`description`,`price`,`cars_ID`,`cars_stores_ID`,`quantity_available`) VALUES (9,?,'Baby Seat','This is a great and safe seat for your kid(s).',50,11,10,10);
+INSERT INTO `gadgets` (`ID`,`image`,`name`,`description`,`price`,`cars_ID`,`cars_stores_ID`,`quantity_available`) VALUES (10,?,'Baby Seat','This is a great and safe seat for your kid(s).',50,12,10,10);
+INSERT INTO `gadgets` (`ID`,`image`,`name`,`description`,`price`,`cars_ID`,`cars_stores_ID`,`quantity_available`) VALUES (11,?,'Baby Seat','This is a great and safe seat for your kid(s).',50,13,10,10);

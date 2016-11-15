@@ -69,7 +69,7 @@
 
 static bool rotating = true;
 double teapot_rotation = 0;
-
+GLfloat r = 0.0f, g = 1.0f, b = 0.0f;
 void setMaterialTeapot()
 {
 	GLfloat mat_ambient[] = { 0.5f, 0.5f, 0.6f, 1.0f };
@@ -82,20 +82,20 @@ void setMaterialTeapot()
 	glMaterialfv(GL_FRONT, GL_SHININESS, mat_shininess);
 }
 //
-//void setMaterialTeapot1()
-//{
-//	int x1;
-//	x1 = rand() % 20 + 1;
-//	int y1;
-//	y1 = rand() % 25 + 1;
-//	int z1;
-//	z1 = rand() % 30 + 1;
-//
-//	GLfloat mat_specular[] = { x1, y1, z1, 10.0f };
-//	GLfloat mat_shininess[] = { 20.0f };
-//	glMaterialfv(GL_FRONT, GL_SPECULAR, mat_specular);
-//	glMaterialfv(GL_FRONT, GL_SHININESS, mat_shininess);
-//}
+void setMaterialTeapot1()
+{
+	int x1;
+	x1 = rand() % 20 + 1;
+	int y1;
+	y1 = rand() % 25 + 1;
+	int z1;
+	z1 = rand() % 30 + 1;
+
+	GLfloat mat_specular[] = { x1, y1, z1, 10.0f };
+	GLfloat mat_shininess[] = { 20.0f };
+	glMaterialfv(GL_FRONT, GL_SPECULAR, mat_specular);
+	glMaterialfv(GL_FRONT, GL_SHININESS, mat_shininess);
+}
 void setMaterialRed()
 {
 	GLfloat mat_ambient[] = { 1.0f, 0.0f, 0.0f, 1.0f };
@@ -107,17 +107,35 @@ void setMaterialRed()
 	glMaterialfv(GL_FRONT, GL_SPECULAR, mat_specular);
 	glMaterialfv(GL_FRONT, GL_SHININESS, mat_shininess);
 }
+void setMaterialRed1()
+{
+	GLfloat mat_ambient[] = { r, g, b, 1.0f };
+	GLfloat mat_diffuse[] = { r, g, b, 1.0f };
+	GLfloat mat_specular[] = { r, g, b, 1.0f };
+	GLfloat mat_shininess[] = { 90.0f };
+	glMaterialfv(GL_FRONT, GL_AMBIENT, mat_ambient);
+	glMaterialfv(GL_FRONT, GL_DIFFUSE, mat_diffuse);
+	glMaterialfv(GL_FRONT, GL_SPECULAR, mat_specular);
+	glMaterialfv(GL_FRONT, GL_SHININESS, mat_shininess);
+}
 void drawSphere()
 {
 	glutSolidSphere(50, 20, 20);
 }
-
+void setRGB(GLfloat R, GLfloat G, GLfloat B)
+{
+	r = R;
+	g = G;
+	b = B;
+}
 void drawTeapot()
 {
-	setMaterialTeapot();
+	//setMaterialTeapot();
+	
 	double x = -5000, y = 2000;
 	for (int i = 0; i < 8; i++)
 	{
+
 		for (int j = 0; j < 8; j++)
 		{
 			glPushMatrix();
@@ -126,13 +144,30 @@ void drawTeapot()
 			glRotatef(-45, 0, -1, 0);
 			glRotatef(-45, 1, 0, 0);
 			glRotatef(teapot_rotation, 1, -1, 0);
+			
+			setMaterialRed1();
+			r = (1.0 / 8.0)*(j + 1);
+		
+			
 			glutSolidTeapot(300);
+
+			if(j == 7)
+			{
+			/*	r = 0;
+				g = g - ((1.0 / 8.0)*(i + 1));
+				b = b + ((1.0 / 8.0)*(i + 1));*/
+			}
 			glPopMatrix();
 			x += 1200;
 			y += 600;
 		}
 		x -= (1200 * 8);
 		y -= (600 * 9) + 300;
+		
+		////g -= 0.1;
+	
+		////setRGB(r, g-((1.0/8.0)*(i+1)), b + ((1.0 / 8.0)*(i+1)));
+		//setMaterialRed1();
 	}
 	glEnable(GL_NORMALIZE);
 	glFlush();
@@ -147,7 +182,7 @@ void drawTeapot1()
 		for (int j = 0; j < 8; j++)
 		{
 			glPushMatrix();
-			//setMaterialTeapot1();
+			setMaterialTeapot1();
 			glEnable(GL_BLEND);
 			glScalef(0.1, 0.1, 0.1);
 			glTranslatef(x, y, 0.1);
@@ -193,11 +228,11 @@ void displaySolid(void)
 	glLoadIdentity();
 	gluLookAt(5.0, 5.0, 5.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	/*drawTeapot();
-	drawTeapot1();*/
+	drawTeapot();
+	//drawTeapot1();
 
-	setMaterialRed();
-	glutSolidTeapot(100);
+	//setMaterialRed();
+	//glutSolidTeapot(100);
 	if (rotating)
 		teapot_rotation += 10.0;
 	glutSwapBuffers();
