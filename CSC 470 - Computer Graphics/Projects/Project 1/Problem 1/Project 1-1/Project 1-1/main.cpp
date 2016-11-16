@@ -45,6 +45,7 @@ GLubyte Bricks[] = {
 	0xFF,  0xFF,  0xFF,  0xFF,  0xFF,  0xFF,  0xFF,  0xFF,
 	0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00
 };
+
 //Global Variables
 static bool rotating = true;
 static bool day = true;
@@ -70,6 +71,7 @@ void metalMaterial();
 void chimneyMaterial();
 void createMenu();
 void menu(int num);
+void drawCircle(GLfloat, GLfloat, GLfloat, GLfloat, GLint);
 
 void display() {
 	//Background
@@ -338,6 +340,7 @@ int main(int argc, char * argv[]) {
 	glutMainLoop();
 	return 0;
 }
+
 void metalMaterial()
 {
 	GLfloat mat_ambient[] = { 0.0f, 0.0f, 0.0f,0.0f };
