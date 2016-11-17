@@ -1,3 +1,4 @@
 ﻿  main.cpp
-  Lab3.vcxproj -> D:\College\CSC 382\Lab3\Lab3\Debug\Lab3.exe
-  Lab3.vcxproj -> D:\College\CSC 382\Lab3\Lab3\Debug\Lab3.pdb (Full PDB)
+d:\github\college-work\csc 382 - algorithms\lab 3\lab3\lab3\main.cpp(115): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Lab3.vcxproj -> D:\github\College-Work\CSC 382 - Algorithms\Lab 3\Lab3\Debug\Lab3.exe
+  Lab3.vcxproj -> D:\github\College-Work\CSC 382 - Algorithms\Lab 3\Lab3\Debug\Lab3.pdb (Full PDB)
